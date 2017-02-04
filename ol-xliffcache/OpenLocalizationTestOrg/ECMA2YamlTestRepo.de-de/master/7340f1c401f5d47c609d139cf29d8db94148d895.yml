@@ -1,0 +1,133 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Linq.Expressions.IDynamicExpression
+  id: IDynamicExpression
+  children:
+  - System.Linq.Expressions.IDynamicExpression.CreateCallSite
+  - System.Linq.Expressions.IDynamicExpression.DelegateType
+  - System.Linq.Expressions.IDynamicExpression.Rewrite(System.Linq.Expressions.Expression[])
+  langs:
+  - csharp
+  name: IDynamicExpression
+  nameWithType: IDynamicExpression
+  fullName: System.Linq.Expressions.IDynamicExpression
+  type: Interface
+  syntax:
+    content: 'public interface IDynamicExpression : System.Linq.Expressions.IArgumentProvider'
+  implements:
+  - System.Linq.Expressions.IArgumentProvider
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.Expressions.IDynamicExpression.CreateCallSite
+  id: CreateCallSite
+  parent: System.Linq.Expressions.IDynamicExpression
+  langs:
+  - csharp
+  name: CreateCallSite()
+  nameWithType: IDynamicExpression.CreateCallSite()
+  fullName: System.Linq.Expressions.IDynamicExpression.CreateCallSite()
+  type: Method
+  assemblies:
+  - System.Core
+  namespace: System.Linq.Expressions
+  syntax:
+    content: public object CreateCallSite ();
+    parameters: []
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.Expressions.IDynamicExpression.DelegateType
+  id: DelegateType
+  parent: System.Linq.Expressions.IDynamicExpression
+  langs:
+  - csharp
+  name: DelegateType
+  nameWithType: IDynamicExpression.DelegateType
+  fullName: System.Linq.Expressions.IDynamicExpression.DelegateType
+  type: Property
+  assemblies:
+  - System.Core
+  namespace: System.Linq.Expressions
+  syntax:
+    content: public Type DelegateType { get; }
+    return:
+      type: System.Type
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.Expressions.IDynamicExpression.Rewrite(System.Linq.Expressions.Expression[])
+  id: Rewrite(System.Linq.Expressions.Expression[])
+  parent: System.Linq.Expressions.IDynamicExpression
+  langs:
+  - csharp
+  name: Rewrite(Expression[])
+  nameWithType: IDynamicExpression.Rewrite(Expression[])
+  fullName: System.Linq.Expressions.IDynamicExpression.Rewrite(Expression[])
+  type: Method
+  assemblies:
+  - System.Core
+  namespace: System.Linq.Expressions
+  syntax:
+    content: public System.Linq.Expressions.Expression Rewrite (System.Linq.Expressions.Expression[] args);
+    parameters:
+    - id: args
+      type: System.Linq.Expressions.Expression[]
+      description: Parameter description to be filled
+    return:
+      type: System.Linq.Expressions.Expression
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Linq.Expressions.IDynamicExpression.CreateCallSite
+  parent: System.Linq.Expressions.IDynamicExpression
+  isExternal: false
+  name: CreateCallSite()
+  nameWithType: IDynamicExpression.CreateCallSite()
+  fullName: System.Linq.Expressions.IDynamicExpression.CreateCallSite()
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Linq.Expressions.IDynamicExpression.DelegateType
+  parent: System.Linq.Expressions.IDynamicExpression
+  isExternal: false
+  name: DelegateType
+  nameWithType: IDynamicExpression.DelegateType
+  fullName: System.Linq.Expressions.IDynamicExpression.DelegateType
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Linq.Expressions.IDynamicExpression.Rewrite(System.Linq.Expressions.Expression[])
+  parent: System.Linq.Expressions.IDynamicExpression
+  isExternal: false
+  name: Rewrite(Expression[])
+  nameWithType: IDynamicExpression.Rewrite(Expression[])
+  fullName: System.Linq.Expressions.IDynamicExpression.Rewrite(Expression[])
+- uid: System.Linq.Expressions.Expression
+  parent: System.Linq.Expressions
+  isExternal: false
+  name: Expression
+  nameWithType: Expression
+  fullName: System.Linq.Expressions.Expression
+- uid: System.Linq.Expressions.Expression
+  parent: System.Linq.Expressions
+  isExternal: false
+  name: Expression
+  nameWithType: Expression
+  fullName: System.Linq.Expressions.Expression[]

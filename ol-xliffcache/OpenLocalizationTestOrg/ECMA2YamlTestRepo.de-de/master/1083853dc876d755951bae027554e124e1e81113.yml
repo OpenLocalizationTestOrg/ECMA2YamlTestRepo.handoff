@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Input.InputEventHandler
+  id: InputEventHandler
+  langs:
+  - csharp
+  name: InputEventHandler
+  nameWithType: InputEventHandler
+  fullName: System.Windows.Input.InputEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void InputEventHandler(object sender, InputEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

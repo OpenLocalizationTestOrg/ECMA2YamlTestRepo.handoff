@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Data.Linq.ConflictMode
+  id: ConflictMode
+  children:
+  - System.Data.Linq.ConflictMode.ContinueOnConflict
+  - System.Data.Linq.ConflictMode.FailOnFirstConflict
+  langs:
+  - csharp
+  name: ConflictMode
+  nameWithType: ConflictMode
+  fullName: System.Data.Linq.ConflictMode
+  type: Enum
+  syntax:
+    content: public enum ConflictMode
+  inheritance:
+  - System.Object
+  - System.ValueType
+  - System.Enum
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Data.Linq.ConflictMode.ContinueOnConflict
+  id: ContinueOnConflict
+  parent: System.Data.Linq.ConflictMode
+  langs:
+  - csharp
+  name: ContinueOnConflict
+  nameWithType: ConflictMode.ContinueOnConflict
+  fullName: System.Data.Linq.ConflictMode.ContinueOnConflict
+  type: Field
+  assemblies:
+  - System.Data.Linq
+  namespace: System.Data.Linq
+  syntax:
+    content: ContinueOnConflict
+    return:
+      type: System.Data.Linq.ConflictMode
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Data.Linq.ConflictMode.FailOnFirstConflict
+  id: FailOnFirstConflict
+  parent: System.Data.Linq.ConflictMode
+  langs:
+  - csharp
+  name: FailOnFirstConflict
+  nameWithType: ConflictMode.FailOnFirstConflict
+  fullName: System.Data.Linq.ConflictMode.FailOnFirstConflict
+  type: Field
+  assemblies:
+  - System.Data.Linq
+  namespace: System.Data.Linq
+  syntax:
+    content: FailOnFirstConflict
+    return:
+      type: System.Data.Linq.ConflictMode
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Enum
+  isExternal: false
+  name: System.Enum
+- uid: System.Data.Linq.ConflictMode.ContinueOnConflict
+  parent: System.Data.Linq.ConflictMode
+  isExternal: false
+  name: ContinueOnConflict
+  nameWithType: ConflictMode.ContinueOnConflict
+  fullName: System.Data.Linq.ConflictMode.ContinueOnConflict
+- uid: System.Data.Linq.ConflictMode
+  parent: System.Data.Linq
+  isExternal: false
+  name: ConflictMode
+  nameWithType: ConflictMode
+  fullName: System.Data.Linq.ConflictMode
+- uid: System.Data.Linq.ConflictMode.FailOnFirstConflict
+  parent: System.Data.Linq.ConflictMode
+  isExternal: false
+  name: FailOnFirstConflict
+  nameWithType: ConflictMode.FailOnFirstConflict
+  fullName: System.Data.Linq.ConflictMode.FailOnFirstConflict
+- uid: System.Data.Linq.ConflictMode
+  parent: System.Data.Linq
+  isExternal: false
+  name: ConflictMode
+  nameWithType: ConflictMode
+  fullName: System.Data.Linq.ConflictMode

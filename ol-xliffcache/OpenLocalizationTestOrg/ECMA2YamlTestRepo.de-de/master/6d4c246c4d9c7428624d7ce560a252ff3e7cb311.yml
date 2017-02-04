@@ -1,0 +1,187 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Configuration.TimeSpanMinutesConverter
+  id: TimeSpanMinutesConverter
+  children:
+  - System.Configuration.TimeSpanMinutesConverter.#ctor
+  - System.Configuration.TimeSpanMinutesConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  - System.Configuration.TimeSpanMinutesConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  langs:
+  - csharp
+  name: TimeSpanMinutesConverter
+  nameWithType: TimeSpanMinutesConverter
+  fullName: System.Configuration.TimeSpanMinutesConverter
+  type: Class
+  syntax:
+    content: 'public class TimeSpanMinutesConverter : System.Configuration.ConfigurationConverterBase'
+  inheritance:
+  - System.ComponentModel.TypeConverter
+  - System.Configuration.ConfigurationConverterBase
+  implements: []
+  inheritedMembers:
+  - System.Configuration.ConfigurationConverterBase.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  - System.Configuration.ConfigurationConverterBase.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Configuration.TimeSpanMinutesConverter.#ctor
+  id: '#ctor'
+  parent: System.Configuration.TimeSpanMinutesConverter
+  langs:
+  - csharp
+  name: TimeSpanMinutesConverter()
+  nameWithType: TimeSpanMinutesConverter.TimeSpanMinutesConverter()
+  fullName: System.Configuration.TimeSpanMinutesConverter.TimeSpanMinutesConverter()
+  type: Constructor
+  assemblies:
+  - System.Configuration
+  namespace: System.Configuration
+  syntax:
+    content: public TimeSpanMinutesConverter ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Configuration.TimeSpanMinutesConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  id: ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  parent: System.Configuration.TimeSpanMinutesConverter
+  langs:
+  - csharp
+  name: ConvertFrom(ITypeDescriptorContext,CultureInfo,Object)
+  nameWithType: TimeSpanMinutesConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,Object)
+  fullName: System.Configuration.TimeSpanMinutesConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,Object)
+  type: Method
+  assemblies:
+  - System.Configuration
+  namespace: System.Configuration
+  syntax:
+    content: public override object ConvertFrom (System.ComponentModel.ITypeDescriptorContext ctx, System.Globalization.CultureInfo ci, object data);
+    parameters:
+    - id: ctx
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    - id: ci
+      type: System.Globalization.CultureInfo
+      description: Parameter description to be filled
+    - id: data
+      type: System.Object
+      description: Parameter description to be filled
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Configuration.TimeSpanMinutesConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  id: ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  parent: System.Configuration.TimeSpanMinutesConverter
+  langs:
+  - csharp
+  name: ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  nameWithType: TimeSpanMinutesConverter.ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  fullName: System.Configuration.TimeSpanMinutesConverter.ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  type: Method
+  assemblies:
+  - System.Configuration
+  namespace: System.Configuration
+  syntax:
+    content: public override object ConvertTo (System.ComponentModel.ITypeDescriptorContext ctx, System.Globalization.CultureInfo ci, object value, Type type);
+    parameters:
+    - id: ctx
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    - id: ci
+      type: System.Globalization.CultureInfo
+      description: Parameter description to be filled
+    - id: value
+      type: System.Object
+      description: Parameter description to be filled
+    - id: type
+      type: System.Type
+      description: Parameter description to be filled
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Configuration.ConfigurationConverterBase
+  isExternal: false
+  name: System.Configuration.ConfigurationConverterBase
+- uid: System.Configuration.TimeSpanMinutesConverter.#ctor
+  parent: System.Configuration.TimeSpanMinutesConverter
+  isExternal: false
+  name: TimeSpanMinutesConverter()
+  nameWithType: TimeSpanMinutesConverter.TimeSpanMinutesConverter()
+  fullName: System.Configuration.TimeSpanMinutesConverter.TimeSpanMinutesConverter()
+- uid: System.Configuration.TimeSpanMinutesConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  parent: System.Configuration.TimeSpanMinutesConverter
+  isExternal: false
+  name: ConvertFrom(ITypeDescriptorContext,CultureInfo,Object)
+  nameWithType: TimeSpanMinutesConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,Object)
+  fullName: System.Configuration.TimeSpanMinutesConverter.ConvertFrom(ITypeDescriptorContext,CultureInfo,Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: false
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Configuration.TimeSpanMinutesConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  parent: System.Configuration.TimeSpanMinutesConverter
+  isExternal: false
+  name: ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  nameWithType: TimeSpanMinutesConverter.ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  fullName: System.Configuration.TimeSpanMinutesConverter.ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: false
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

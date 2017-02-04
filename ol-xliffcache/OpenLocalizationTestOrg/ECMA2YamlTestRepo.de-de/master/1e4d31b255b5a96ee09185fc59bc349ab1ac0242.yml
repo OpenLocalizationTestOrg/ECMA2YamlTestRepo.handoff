@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Navigation.FragmentNavigationEventHandler
+  id: FragmentNavigationEventHandler
+  langs:
+  - csharp
+  name: FragmentNavigationEventHandler
+  nameWithType: FragmentNavigationEventHandler
+  fullName: System.Windows.Navigation.FragmentNavigationEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void FragmentNavigationEventHandler(object sender, FragmentNavigationEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

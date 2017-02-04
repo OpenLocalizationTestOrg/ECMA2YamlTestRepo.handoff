@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Deployment.Application.DeploymentProgressChangedEventHandler
+  id: DeploymentProgressChangedEventHandler
+  langs:
+  - csharp
+  name: DeploymentProgressChangedEventHandler
+  nameWithType: DeploymentProgressChangedEventHandler
+  fullName: System.Deployment.Application.DeploymentProgressChangedEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void DeploymentProgressChangedEventHandler(object sender, DeploymentProgressChangedEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

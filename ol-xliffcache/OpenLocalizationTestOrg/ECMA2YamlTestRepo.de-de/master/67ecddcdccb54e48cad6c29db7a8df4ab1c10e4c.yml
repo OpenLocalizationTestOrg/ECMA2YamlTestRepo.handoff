@@ -1,0 +1,848 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  id: DirListBox
+  children:
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.#ctor
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Change
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ColumnWidth
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DataSource
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirList(System.Int32)
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListCount
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListIndex
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Dispose(System.Boolean)
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DrawMode
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ItemHeight
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Items
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.MultiColumn
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnBackColorChanged(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnChange(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDoubleClick(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnFontChanged(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnHandleCreated(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnSelectedIndexChanged(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Path
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Refresh
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.SelectionMode
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Sorted
+  - Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ValueMember
+  langs:
+  - csharp
+  name: DirListBox
+  nameWithType: DirListBox
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  type: Class
+  syntax:
+    content: >-
+      [System.ComponentModel.Designer(typeof(Microsoft.VisualBasic.Compatibility.VB6.CompatibilityListBoxDesigner))]
+
+      [System.Obsolete("Microsoft.VisualBasic.Compatibility.* classes are obsolete and supported within 32 bit processes only. http://go.microsoft.com/fwlink/?linkid=160862")]
+
+      public class DirListBox : System.Windows.Forms.ListBox
+  inheritance:
+  - System.Windows.Forms.ListBox
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.#ctor
+  id: '#ctor'
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: DirListBox()
+  nameWithType: DirListBox.DirListBox()
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListBox()
+  type: Constructor
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public DirListBox ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Change
+  id: Change
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: Change
+  nameWithType: DirListBox.Change
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Change
+  type: Event
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public event EventHandler Change;
+    return:
+      type: System.EventHandler
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ColumnWidth
+  id: ColumnWidth
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: ColumnWidth
+  nameWithType: DirListBox.ColumnWidth
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ColumnWidth
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public int ColumnWidth { get; set; }
+    return:
+      type: System.Int32
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DataSource
+  id: DataSource
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: DataSource
+  nameWithType: DirListBox.DataSource
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DataSource
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public object DataSource { get; set; }
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirList(System.Int32)
+  id: DirList(System.Int32)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: DirList(Int32)
+  nameWithType: DirListBox.DirList(Int32)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirList(Int32)
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public string DirList[int Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Int32
+      description: Parameter description to be filled
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListCount
+  id: DirListCount
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: DirListCount
+  nameWithType: DirListBox.DirListCount
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListCount
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public int DirListCount { get; }
+    return:
+      type: System.Int32
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListIndex
+  id: DirListIndex
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: DirListIndex
+  nameWithType: DirListBox.DirListIndex
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListIndex
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public int DirListIndex { get; set; }
+    return:
+      type: System.Int32
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: Dispose(Boolean)
+  nameWithType: DirListBox.Dispose(Boolean)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Dispose(Boolean)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void Dispose (bool Disposing);
+    parameters:
+    - id: Disposing
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DrawMode
+  id: DrawMode
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: DrawMode
+  nameWithType: DirListBox.DrawMode
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DrawMode
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public override System.Windows.Forms.DrawMode DrawMode { get; set; }
+    return:
+      type: System.Windows.Forms.DrawMode
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ItemHeight
+  id: ItemHeight
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: ItemHeight
+  nameWithType: DirListBox.ItemHeight
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ItemHeight
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public int ItemHeight { get; }
+    return:
+      type: System.Int32
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Items
+  id: Items
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: Items
+  nameWithType: DirListBox.Items
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Items
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public System.Windows.Forms.ListBox.ObjectCollection Items { get; }
+    return:
+      type: System.Windows.Forms.ListBox+ObjectCollection
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.MultiColumn
+  id: MultiColumn
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: MultiColumn
+  nameWithType: DirListBox.MultiColumn
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.MultiColumn
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public bool MultiColumn { get; set; }
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnBackColorChanged(System.EventArgs)
+  id: OnBackColorChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: OnBackColorChanged(EventArgs)
+  nameWithType: DirListBox.OnBackColorChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnBackColorChanged(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnBackColorChanged (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnChange(System.EventArgs)
+  id: OnChange(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: OnChange(EventArgs)
+  nameWithType: DirListBox.OnChange(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnChange(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected virtual void OnChange (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDoubleClick(System.EventArgs)
+  id: OnDoubleClick(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: OnDoubleClick(EventArgs)
+  nameWithType: DirListBox.OnDoubleClick(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDoubleClick(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnDoubleClick (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)
+  id: OnDrawItem(System.Windows.Forms.DrawItemEventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: OnDrawItem(DrawItemEventArgs)
+  nameWithType: DirListBox.OnDrawItem(DrawItemEventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDrawItem(DrawItemEventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnDrawItem (System.Windows.Forms.DrawItemEventArgs e);
+    parameters:
+    - id: e
+      type: System.Windows.Forms.DrawItemEventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnFontChanged(System.EventArgs)
+  id: OnFontChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: OnFontChanged(EventArgs)
+  nameWithType: DirListBox.OnFontChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnFontChanged(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnFontChanged (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnHandleCreated(System.EventArgs)
+  id: OnHandleCreated(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: OnHandleCreated(EventArgs)
+  nameWithType: DirListBox.OnHandleCreated(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnHandleCreated(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnHandleCreated (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnSelectedIndexChanged(System.EventArgs)
+  id: OnSelectedIndexChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: OnSelectedIndexChanged(EventArgs)
+  nameWithType: DirListBox.OnSelectedIndexChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnSelectedIndexChanged(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnSelectedIndexChanged (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Path
+  id: Path
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: Path
+  nameWithType: DirListBox.Path
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Path
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public string Path { get; set; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Refresh
+  id: Refresh
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: Refresh()
+  nameWithType: DirListBox.Refresh()
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Refresh()
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public override void Refresh ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.SelectionMode
+  id: SelectionMode
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: SelectionMode
+  nameWithType: DirListBox.SelectionMode
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.SelectionMode
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public System.Windows.Forms.SelectionMode SelectionMode { get; set; }
+    return:
+      type: System.Windows.Forms.SelectionMode
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Sorted
+  id: Sorted
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: Sorted
+  nameWithType: DirListBox.Sorted
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Sorted
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public bool Sorted { get; }
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ValueMember
+  id: ValueMember
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  langs:
+  - csharp
+  name: ValueMember
+  nameWithType: DirListBox.ValueMember
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ValueMember
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public string ValueMember { get; set; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Forms.ListBox
+  isExternal: false
+  name: System.Windows.Forms.ListBox
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.#ctor
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: DirListBox()
+  nameWithType: DirListBox.DirListBox()
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListBox()
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Change
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: Change
+  nameWithType: DirListBox.Change
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Change
+- uid: System.EventHandler
+  parent: System
+  isExternal: false
+  name: EventHandler
+  nameWithType: EventHandler
+  fullName: System.EventHandler
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ColumnWidth
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: ColumnWidth
+  nameWithType: DirListBox.ColumnWidth
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ColumnWidth
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DataSource
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: DataSource
+  nameWithType: DirListBox.DataSource
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DataSource
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirList(System.Int32)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: DirList(Int32)
+  nameWithType: DirListBox.DirList(Int32)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirList(Int32)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListCount
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: DirListCount
+  nameWithType: DirListBox.DirListCount
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListCount
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListIndex
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: DirListIndex
+  nameWithType: DirListBox.DirListIndex
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DirListIndex
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Dispose(System.Boolean)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: Dispose(Boolean)
+  nameWithType: DirListBox.Dispose(Boolean)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Dispose(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DrawMode
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: DrawMode
+  nameWithType: DirListBox.DrawMode
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.DrawMode
+- uid: System.Windows.Forms.DrawMode
+  parent: System.Windows.Forms
+  isExternal: true
+  name: DrawMode
+  nameWithType: DrawMode
+  fullName: System.Windows.Forms.DrawMode
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ItemHeight
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: ItemHeight
+  nameWithType: DirListBox.ItemHeight
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ItemHeight
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Items
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: Items
+  nameWithType: DirListBox.Items
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Items
+- uid: System.Windows.Forms.ListBox
+  parent: System.Windows.Forms
+  isExternal: true
+  name: ListBox
+  nameWithType: ListBox
+  fullName: System.Windows.Forms.ListBox+ObjectCollection
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.MultiColumn
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: MultiColumn
+  nameWithType: DirListBox.MultiColumn
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.MultiColumn
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnBackColorChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: OnBackColorChanged(EventArgs)
+  nameWithType: DirListBox.OnBackColorChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnBackColorChanged(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnChange(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: OnChange(EventArgs)
+  nameWithType: DirListBox.OnChange(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnChange(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDoubleClick(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: OnDoubleClick(EventArgs)
+  nameWithType: DirListBox.OnDoubleClick(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDoubleClick(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: OnDrawItem(DrawItemEventArgs)
+  nameWithType: DirListBox.OnDrawItem(DrawItemEventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnDrawItem(DrawItemEventArgs)
+- uid: System.Windows.Forms.DrawItemEventArgs
+  parent: System.Windows.Forms
+  isExternal: true
+  name: DrawItemEventArgs
+  nameWithType: DrawItemEventArgs
+  fullName: System.Windows.Forms.DrawItemEventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnFontChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: OnFontChanged(EventArgs)
+  nameWithType: DirListBox.OnFontChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnFontChanged(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnHandleCreated(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: OnHandleCreated(EventArgs)
+  nameWithType: DirListBox.OnHandleCreated(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnHandleCreated(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnSelectedIndexChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: OnSelectedIndexChanged(EventArgs)
+  nameWithType: DirListBox.OnSelectedIndexChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.OnSelectedIndexChanged(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Path
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: Path
+  nameWithType: DirListBox.Path
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Path
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Refresh
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: Refresh()
+  nameWithType: DirListBox.Refresh()
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Refresh()
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.SelectionMode
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: SelectionMode
+  nameWithType: DirListBox.SelectionMode
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.SelectionMode
+- uid: System.Windows.Forms.SelectionMode
+  parent: System.Windows.Forms
+  isExternal: true
+  name: SelectionMode
+  nameWithType: SelectionMode
+  fullName: System.Windows.Forms.SelectionMode
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Sorted
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: Sorted
+  nameWithType: DirListBox.Sorted
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.Sorted
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ValueMember
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DirListBox
+  isExternal: false
+  name: ValueMember
+  nameWithType: DirListBox.ValueMember
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DirListBox.ValueMember
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String

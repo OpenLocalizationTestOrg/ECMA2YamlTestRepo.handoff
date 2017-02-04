@@ -1,0 +1,304 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Diagnostics.Eventing.Reader.EventLogException
+  id: EventLogException
+  children:
+  - System.Diagnostics.Eventing.Reader.EventLogException.#ctor
+  - System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.Int32)
+  - System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.String)
+  - System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.String,System.Exception)
+  - System.Diagnostics.Eventing.Reader.EventLogException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Diagnostics.Eventing.Reader.EventLogException.Message
+  langs:
+  - csharp
+  name: EventLogException
+  nameWithType: EventLogException
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException
+  type: Class
+  syntax:
+    content: 'public class EventLogException : Exception'
+  inheritance:
+  - System.Object
+  - System.Exception
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor
+  id: '#ctor'
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  langs:
+  - csharp
+  name: EventLogException()
+  nameWithType: EventLogException.EventLogException()
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException()
+  type: Constructor
+  assemblies:
+  - System.Core
+  namespace: System.Diagnostics.Eventing.Reader
+  syntax:
+    content: public EventLogException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.Int32)
+  id: '#ctor(System.Int32)'
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  langs:
+  - csharp
+  name: EventLogException(Int32)
+  nameWithType: EventLogException.EventLogException(Int32)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException(Int32)
+  type: Constructor
+  assemblies:
+  - System.Core
+  namespace: System.Diagnostics.Eventing.Reader
+  syntax:
+    content: protected EventLogException (int errorCode);
+    parameters:
+    - id: errorCode
+      type: System.Int32
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  langs:
+  - csharp
+  name: EventLogException(String)
+  nameWithType: EventLogException.EventLogException(String)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException(String)
+  type: Constructor
+  assemblies:
+  - System.Core
+  namespace: System.Diagnostics.Eventing.Reader
+  syntax:
+    content: public EventLogException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  langs:
+  - csharp
+  name: EventLogException(SerializationInfo,StreamingContext)
+  nameWithType: EventLogException.EventLogException(SerializationInfo,StreamingContext)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - System.Core
+  namespace: System.Diagnostics.Eventing.Reader
+  syntax:
+    content: protected EventLogException (System.Runtime.Serialization.SerializationInfo serializationInfo, System.Runtime.Serialization.StreamingContext streamingContext);
+    parameters:
+    - id: serializationInfo
+      type: System.Runtime.Serialization.SerializationInfo
+      description: Parameter description to be filled
+    - id: streamingContext
+      type: System.Runtime.Serialization.StreamingContext
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  langs:
+  - csharp
+  name: EventLogException(String,Exception)
+  nameWithType: EventLogException.EventLogException(String,Exception)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException(String,Exception)
+  type: Constructor
+  assemblies:
+  - System.Core
+  namespace: System.Diagnostics.Eventing.Reader
+  syntax:
+    content: public EventLogException (string message, Exception innerException);
+    parameters:
+    - id: message
+      type: System.String
+      description: Parameter description to be filled
+    - id: innerException
+      type: System.Exception
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  langs:
+  - csharp
+  name: GetObjectData(SerializationInfo,StreamingContext)
+  nameWithType: EventLogException.GetObjectData(SerializationInfo,StreamingContext)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.GetObjectData(SerializationInfo,StreamingContext)
+  type: Method
+  assemblies:
+  - System.Core
+  namespace: System.Diagnostics.Eventing.Reader
+  syntax:
+    content: public override void GetObjectData (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: Parameter description to be filled
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.Message
+  id: Message
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  langs:
+  - csharp
+  name: Message
+  nameWithType: EventLogException.Message
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.Message
+  type: Property
+  assemblies:
+  - System.Core
+  namespace: System.Diagnostics.Eventing.Reader
+  syntax:
+    content: public override string Message { get; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Exception
+  isExternal: false
+  name: System.Exception
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  isExternal: false
+  name: EventLogException()
+  nameWithType: EventLogException.EventLogException()
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException()
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.Int32)
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  isExternal: false
+  name: EventLogException(Int32)
+  nameWithType: EventLogException.EventLogException(Int32)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException(Int32)
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.String)
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  isExternal: false
+  name: EventLogException(String)
+  nameWithType: EventLogException.EventLogException(String)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  isExternal: false
+  name: EventLogException(SerializationInfo,StreamingContext)
+  nameWithType: EventLogException.EventLogException(SerializationInfo,StreamingContext)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.#ctor(System.String,System.Exception)
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  isExternal: false
+  name: EventLogException(String,Exception)
+  nameWithType: EventLogException.EventLogException(String,Exception)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.EventLogException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  isExternal: false
+  name: GetObjectData(SerializationInfo,StreamingContext)
+  nameWithType: EventLogException.GetObjectData(SerializationInfo,StreamingContext)
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.GetObjectData(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Diagnostics.Eventing.Reader.EventLogException.Message
+  parent: System.Diagnostics.Eventing.Reader.EventLogException
+  isExternal: false
+  name: Message
+  nameWithType: EventLogException.Message
+  fullName: System.Diagnostics.Eventing.Reader.EventLogException.Message
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String

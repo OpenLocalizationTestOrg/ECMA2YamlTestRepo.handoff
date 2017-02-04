@@ -1,0 +1,387 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Printing.PrintServerException
+  id: PrintServerException
+  children:
+  - System.Printing.PrintServerException.#ctor
+  - System.Printing.PrintServerException.#ctor(System.String)
+  - System.Printing.PrintServerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Printing.PrintServerException.#ctor(System.String,System.Exception)
+  - System.Printing.PrintServerException.#ctor(System.Int32,System.String,System.String)
+  - System.Printing.PrintServerException.#ctor(System.Int32,System.String,System.String,System.Exception)
+  - System.Printing.PrintServerException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Printing.PrintServerException.ServerName
+  langs:
+  - csharp
+  name: PrintServerException
+  nameWithType: PrintServerException
+  fullName: System.Printing.PrintServerException
+  type: Class
+  syntax:
+    content: 'public class PrintServerException : System.Printing.PrintSystemException'
+  inheritance:
+  - System.Object
+  - System.Exception
+  - System.SystemException
+  - System.Printing.PrintSystemException
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Printing.PrintServerException.#ctor
+  id: '#ctor'
+  parent: System.Printing.PrintServerException
+  langs:
+  - csharp
+  name: PrintServerException()
+  nameWithType: PrintServerException.PrintServerException()
+  fullName: System.Printing.PrintServerException.PrintServerException()
+  type: Constructor
+  assemblies:
+  - ReachFramework
+  namespace: System.Printing
+  syntax:
+    content: public PrintServerException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Printing.PrintServerException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.Printing.PrintServerException
+  langs:
+  - csharp
+  name: PrintServerException(String)
+  nameWithType: PrintServerException.PrintServerException(String)
+  fullName: System.Printing.PrintServerException.PrintServerException(String)
+  type: Constructor
+  assemblies:
+  - ReachFramework
+  namespace: System.Printing
+  syntax:
+    content: public PrintServerException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Printing.PrintServerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.Printing.PrintServerException
+  langs:
+  - csharp
+  name: PrintServerException(SerializationInfo,StreamingContext)
+  nameWithType: PrintServerException.PrintServerException(SerializationInfo,StreamingContext)
+  fullName: System.Printing.PrintServerException.PrintServerException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - ReachFramework
+  namespace: System.Printing
+  syntax:
+    content: protected PrintServerException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: Parameter description to be filled
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Printing.PrintServerException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.Printing.PrintServerException
+  langs:
+  - csharp
+  name: PrintServerException(String,Exception)
+  nameWithType: PrintServerException.PrintServerException(String,Exception)
+  fullName: System.Printing.PrintServerException.PrintServerException(String,Exception)
+  type: Constructor
+  assemblies:
+  - ReachFramework
+  namespace: System.Printing
+  syntax:
+    content: public PrintServerException (string message, Exception innerException);
+    parameters:
+    - id: message
+      type: System.String
+      description: Parameter description to be filled
+    - id: innerException
+      type: System.Exception
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Printing.PrintServerException.#ctor(System.Int32,System.String,System.String)
+  id: '#ctor(System.Int32,System.String,System.String)'
+  parent: System.Printing.PrintServerException
+  langs:
+  - csharp
+  name: PrintServerException(Int32,String,String)
+  nameWithType: PrintServerException.PrintServerException(Int32,String,String)
+  fullName: System.Printing.PrintServerException.PrintServerException(Int32,String,String)
+  type: Constructor
+  assemblies:
+  - ReachFramework
+  namespace: System.Printing
+  syntax:
+    content: public PrintServerException (int errorCode, string message, string serverName);
+    parameters:
+    - id: errorCode
+      type: System.Int32
+      description: Parameter description to be filled
+    - id: message
+      type: System.String
+      description: Parameter description to be filled
+    - id: serverName
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Printing.PrintServerException.#ctor(System.Int32,System.String,System.String,System.Exception)
+  id: '#ctor(System.Int32,System.String,System.String,System.Exception)'
+  parent: System.Printing.PrintServerException
+  langs:
+  - csharp
+  name: PrintServerException(Int32,String,String,Exception)
+  nameWithType: PrintServerException.PrintServerException(Int32,String,String,Exception)
+  fullName: System.Printing.PrintServerException.PrintServerException(Int32,String,String,Exception)
+  type: Constructor
+  assemblies:
+  - ReachFramework
+  namespace: System.Printing
+  syntax:
+    content: public PrintServerException (int errorCode, string message, string serverName, Exception innerException);
+    parameters:
+    - id: errorCode
+      type: System.Int32
+      description: Parameter description to be filled
+    - id: message
+      type: System.String
+      description: Parameter description to be filled
+    - id: serverName
+      type: System.String
+      description: Parameter description to be filled
+    - id: innerException
+      type: System.Exception
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Printing.PrintServerException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Printing.PrintServerException
+  langs:
+  - csharp
+  name: GetObjectData(SerializationInfo,StreamingContext)
+  nameWithType: PrintServerException.GetObjectData(SerializationInfo,StreamingContext)
+  fullName: System.Printing.PrintServerException.GetObjectData(SerializationInfo,StreamingContext)
+  type: Method
+  assemblies:
+  - ReachFramework
+  namespace: System.Printing
+  syntax:
+    content: public override void GetObjectData (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: Parameter description to be filled
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Printing.PrintServerException.ServerName
+  id: ServerName
+  parent: System.Printing.PrintServerException
+  langs:
+  - csharp
+  name: ServerName
+  nameWithType: PrintServerException.ServerName
+  fullName: System.Printing.PrintServerException.ServerName
+  type: Property
+  assemblies:
+  - ReachFramework
+  namespace: System.Printing
+  syntax:
+    content: public string ServerName { get; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Printing.PrintSystemException
+  isExternal: false
+  name: System.Printing.PrintSystemException
+- uid: System.Printing.PrintServerException.#ctor
+  parent: System.Printing.PrintServerException
+  isExternal: false
+  name: PrintServerException()
+  nameWithType: PrintServerException.PrintServerException()
+  fullName: System.Printing.PrintServerException.PrintServerException()
+- uid: System.Printing.PrintServerException.#ctor(System.String)
+  parent: System.Printing.PrintServerException
+  isExternal: false
+  name: PrintServerException(String)
+  nameWithType: PrintServerException.PrintServerException(String)
+  fullName: System.Printing.PrintServerException.PrintServerException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Printing.PrintServerException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Printing.PrintServerException
+  isExternal: false
+  name: PrintServerException(SerializationInfo,StreamingContext)
+  nameWithType: PrintServerException.PrintServerException(SerializationInfo,StreamingContext)
+  fullName: System.Printing.PrintServerException.PrintServerException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Printing.PrintServerException.#ctor(System.String,System.Exception)
+  parent: System.Printing.PrintServerException
+  isExternal: false
+  name: PrintServerException(String,Exception)
+  nameWithType: PrintServerException.PrintServerException(String,Exception)
+  fullName: System.Printing.PrintServerException.PrintServerException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Printing.PrintServerException.#ctor(System.Int32,System.String,System.String)
+  parent: System.Printing.PrintServerException
+  isExternal: false
+  name: PrintServerException(Int32,String,String)
+  nameWithType: PrintServerException.PrintServerException(Int32,String,String)
+  fullName: System.Printing.PrintServerException.PrintServerException(Int32,String,String)
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Printing.PrintServerException.#ctor(System.Int32,System.String,System.String,System.Exception)
+  parent: System.Printing.PrintServerException
+  isExternal: false
+  name: PrintServerException(Int32,String,String,Exception)
+  nameWithType: PrintServerException.PrintServerException(Int32,String,String,Exception)
+  fullName: System.Printing.PrintServerException.PrintServerException(Int32,String,String,Exception)
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.Printing.PrintServerException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.Printing.PrintServerException
+  isExternal: false
+  name: GetObjectData(SerializationInfo,StreamingContext)
+  nameWithType: PrintServerException.GetObjectData(SerializationInfo,StreamingContext)
+  fullName: System.Printing.PrintServerException.GetObjectData(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.Printing.PrintServerException.ServerName
+  parent: System.Printing.PrintServerException
+  isExternal: false
+  name: ServerName
+  nameWithType: PrintServerException.ServerName
+  fullName: System.Printing.PrintServerException.ServerName
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String

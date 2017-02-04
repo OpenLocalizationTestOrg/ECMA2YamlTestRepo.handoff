@@ -1,0 +1,25 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.TriggerAction
+  id: TriggerAction
+  children: []
+  langs:
+  - csharp
+  name: TriggerAction
+  nameWithType: TriggerAction
+  fullName: System.Windows.TriggerAction
+  type: Class
+  syntax:
+    content: 'public abstract class TriggerAction : System.Windows.DependencyObject'
+  inheritance:
+  - System.Windows.DependencyObject
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.DependencyObject
+  isExternal: false
+  name: System.Windows.DependencyObject

@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Media.Animation.PauseStoryboard
+  id: PauseStoryboard
+  children:
+  - System.Windows.Media.Animation.PauseStoryboard.#ctor
+  langs:
+  - csharp
+  name: PauseStoryboard
+  nameWithType: PauseStoryboard
+  fullName: System.Windows.Media.Animation.PauseStoryboard
+  type: Class
+  syntax:
+    content: 'public sealed class PauseStoryboard : System.Windows.Media.Animation.ControllableStoryboardAction'
+  inheritance:
+  - System.Windows.DependencyObject
+  - System.Windows.TriggerAction
+  - System.Windows.Media.Animation.ControllableStoryboardAction
+  implements: []
+  inheritedMembers:
+  - System.Windows.Media.Animation.ControllableStoryboardAction.BeginStoryboardName
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.PauseStoryboard.#ctor
+  id: '#ctor'
+  parent: System.Windows.Media.Animation.PauseStoryboard
+  langs:
+  - csharp
+  name: PauseStoryboard()
+  nameWithType: PauseStoryboard.PauseStoryboard()
+  fullName: System.Windows.Media.Animation.PauseStoryboard.PauseStoryboard()
+  type: Constructor
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: public PauseStoryboard ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Media.Animation.ControllableStoryboardAction
+  isExternal: false
+  name: System.Windows.Media.Animation.ControllableStoryboardAction
+- uid: System.Windows.Media.Animation.PauseStoryboard.#ctor
+  parent: System.Windows.Media.Animation.PauseStoryboard
+  isExternal: false
+  name: PauseStoryboard()
+  nameWithType: PauseStoryboard.PauseStoryboard()
+  fullName: System.Windows.Media.Animation.PauseStoryboard.PauseStoryboard()

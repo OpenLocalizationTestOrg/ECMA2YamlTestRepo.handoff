@@ -1,0 +1,245 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Web.UI.Design.ConnectionStringEditor
+  id: ConnectionStringEditor
+  children:
+  - System.Web.UI.Design.ConnectionStringEditor.#ctor
+  - System.Web.UI.Design.ConnectionStringEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)
+  - System.Web.UI.Design.ConnectionStringEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)
+  - System.Web.UI.Design.ConnectionStringEditor.GetProviderName(System.Object)
+  - System.Web.UI.Design.ConnectionStringEditor.SetProviderName(System.Object,System.ComponentModel.Design.Data.DesignerDataConnection)
+  langs:
+  - csharp
+  name: ConnectionStringEditor
+  nameWithType: ConnectionStringEditor
+  fullName: System.Web.UI.Design.ConnectionStringEditor
+  type: Class
+  syntax:
+    content: 'public class ConnectionStringEditor : System.Drawing.Design.UITypeEditor'
+  inheritance:
+  - System.Drawing.Design.UITypeEditor
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.ConnectionStringEditor.#ctor
+  id: '#ctor'
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  langs:
+  - csharp
+  name: ConnectionStringEditor()
+  nameWithType: ConnectionStringEditor.ConnectionStringEditor()
+  fullName: System.Web.UI.Design.ConnectionStringEditor.ConnectionStringEditor()
+  type: Constructor
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design
+  syntax:
+    content: public ConnectionStringEditor ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.ConnectionStringEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)
+  id: EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  langs:
+  - csharp
+  name: EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  nameWithType: ConnectionStringEditor.EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  fullName: System.Web.UI.Design.ConnectionStringEditor.EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design
+  syntax:
+    content: public override object EditValue (System.ComponentModel.ITypeDescriptorContext context, IServiceProvider provider, object value);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    - id: provider
+      type: System.IServiceProvider
+      description: Parameter description to be filled
+    - id: value
+      type: System.Object
+      description: Parameter description to be filled
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.ConnectionStringEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)
+  id: GetEditStyle(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  langs:
+  - csharp
+  name: GetEditStyle(ITypeDescriptorContext)
+  nameWithType: ConnectionStringEditor.GetEditStyle(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.ConnectionStringEditor.GetEditStyle(ITypeDescriptorContext)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design
+  syntax:
+    content: public override System.Drawing.Design.UITypeEditorEditStyle GetEditStyle (System.ComponentModel.ITypeDescriptorContext context);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    return:
+      type: System.Drawing.Design.UITypeEditorEditStyle
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.ConnectionStringEditor.GetProviderName(System.Object)
+  id: GetProviderName(System.Object)
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  langs:
+  - csharp
+  name: GetProviderName(Object)
+  nameWithType: ConnectionStringEditor.GetProviderName(Object)
+  fullName: System.Web.UI.Design.ConnectionStringEditor.GetProviderName(Object)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design
+  syntax:
+    content: protected virtual string GetProviderName (object instance);
+    parameters:
+    - id: instance
+      type: System.Object
+      description: Parameter description to be filled
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.ConnectionStringEditor.SetProviderName(System.Object,System.ComponentModel.Design.Data.DesignerDataConnection)
+  id: SetProviderName(System.Object,System.ComponentModel.Design.Data.DesignerDataConnection)
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  langs:
+  - csharp
+  name: SetProviderName(Object,DesignerDataConnection)
+  nameWithType: ConnectionStringEditor.SetProviderName(Object,DesignerDataConnection)
+  fullName: System.Web.UI.Design.ConnectionStringEditor.SetProviderName(Object,DesignerDataConnection)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design
+  syntax:
+    content: protected virtual void SetProviderName (object instance, System.ComponentModel.Design.Data.DesignerDataConnection connection);
+    parameters:
+    - id: instance
+      type: System.Object
+      description: Parameter description to be filled
+    - id: connection
+      type: System.ComponentModel.Design.Data.DesignerDataConnection
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Drawing.Design.UITypeEditor
+  isExternal: false
+  name: System.Drawing.Design.UITypeEditor
+- uid: System.Web.UI.Design.ConnectionStringEditor.#ctor
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  isExternal: false
+  name: ConnectionStringEditor()
+  nameWithType: ConnectionStringEditor.ConnectionStringEditor()
+  fullName: System.Web.UI.Design.ConnectionStringEditor.ConnectionStringEditor()
+- uid: System.Web.UI.Design.ConnectionStringEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  isExternal: false
+  name: EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  nameWithType: ConnectionStringEditor.EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  fullName: System.Web.UI.Design.ConnectionStringEditor.EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.IServiceProvider
+  parent: System
+  isExternal: false
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.Design.ConnectionStringEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  isExternal: false
+  name: GetEditStyle(ITypeDescriptorContext)
+  nameWithType: ConnectionStringEditor.GetEditStyle(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.ConnectionStringEditor.GetEditStyle(ITypeDescriptorContext)
+- uid: System.Drawing.Design.UITypeEditorEditStyle
+  parent: System.Drawing.Design
+  isExternal: true
+  name: UITypeEditorEditStyle
+  nameWithType: UITypeEditorEditStyle
+  fullName: System.Drawing.Design.UITypeEditorEditStyle
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.Web.UI.Design.ConnectionStringEditor.GetProviderName(System.Object)
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  isExternal: false
+  name: GetProviderName(Object)
+  nameWithType: ConnectionStringEditor.GetProviderName(Object)
+  fullName: System.Web.UI.Design.ConnectionStringEditor.GetProviderName(Object)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.Design.ConnectionStringEditor.SetProviderName(System.Object,System.ComponentModel.Design.Data.DesignerDataConnection)
+  parent: System.Web.UI.Design.ConnectionStringEditor
+  isExternal: false
+  name: SetProviderName(Object,DesignerDataConnection)
+  nameWithType: ConnectionStringEditor.SetProviderName(Object,DesignerDataConnection)
+  fullName: System.Web.UI.Design.ConnectionStringEditor.SetProviderName(Object,DesignerDataConnection)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.Design.Data.DesignerDataConnection
+  parent: System.ComponentModel.Design.Data
+  isExternal: false
+  name: DesignerDataConnection
+  nameWithType: DesignerDataConnection
+  fullName: System.ComponentModel.Design.Data.DesignerDataConnection

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Data.OracleClient.OracleInfoMessageEventHandler
+  id: OracleInfoMessageEventHandler
+  langs:
+  - csharp
+  name: OracleInfoMessageEventHandler
+  nameWithType: OracleInfoMessageEventHandler
+  fullName: System.Data.OracleClient.OracleInfoMessageEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void OracleInfoMessageEventHandler(object sender, OracleInfoMessageEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

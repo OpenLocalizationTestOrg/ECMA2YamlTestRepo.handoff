@@ -1,0 +1,249 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  id: CalendarAutoFormatDialog
+  children:
+  - System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.#ctor(System.Web.UI.WebControls.Calendar)
+  - System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.DoDelayLoadActions
+  - System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnActivated(System.Object,System.EventArgs)
+  - System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnOKClicked(System.Object,System.EventArgs)
+  - System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnSelChangedScheme(System.Object,System.EventArgs)
+  - System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.SaveComponent
+  langs:
+  - csharp
+  name: CalendarAutoFormatDialog
+  nameWithType: CalendarAutoFormatDialog
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  type: Class
+  syntax:
+    content: >-
+      [System.ComponentModel.ToolboxItem(false)]
+
+      [System.Obsolete("Use of this type is not recommended because the AutoFormat dialog is launched by the designer host. The list of available AutoFormats is exposed on the ControlDesigner in the AutoFormats property. http://go.microsoft.com/fwlink/?linkid=14202")]
+
+      public class CalendarAutoFormatDialog : System.Windows.Forms.Form
+  inheritance:
+  - System.Windows.Forms.Form
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.#ctor(System.Web.UI.WebControls.Calendar)
+  id: '#ctor(System.Web.UI.WebControls.Calendar)'
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  langs:
+  - csharp
+  name: CalendarAutoFormatDialog(Calendar)
+  nameWithType: CalendarAutoFormatDialog.CalendarAutoFormatDialog(Calendar)
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.CalendarAutoFormatDialog(Calendar)
+  type: Constructor
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public CalendarAutoFormatDialog (System.Web.UI.WebControls.Calendar calendar);
+    parameters:
+    - id: calendar
+      type: System.Web.UI.WebControls.Calendar
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.DoDelayLoadActions
+  id: DoDelayLoadActions
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  langs:
+  - csharp
+  name: DoDelayLoadActions()
+  nameWithType: CalendarAutoFormatDialog.DoDelayLoadActions()
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.DoDelayLoadActions()
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void DoDelayLoadActions ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnActivated(System.Object,System.EventArgs)
+  id: OnActivated(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  langs:
+  - csharp
+  name: OnActivated(Object,EventArgs)
+  nameWithType: CalendarAutoFormatDialog.OnActivated(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnActivated(Object,EventArgs)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void OnActivated (object source, EventArgs e);
+    parameters:
+    - id: source
+      type: System.Object
+      description: Parameter description to be filled
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnOKClicked(System.Object,System.EventArgs)
+  id: OnOKClicked(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  langs:
+  - csharp
+  name: OnOKClicked(Object,EventArgs)
+  nameWithType: CalendarAutoFormatDialog.OnOKClicked(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnOKClicked(Object,EventArgs)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void OnOKClicked (object source, EventArgs e);
+    parameters:
+    - id: source
+      type: System.Object
+      description: Parameter description to be filled
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnSelChangedScheme(System.Object,System.EventArgs)
+  id: OnSelChangedScheme(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  langs:
+  - csharp
+  name: OnSelChangedScheme(Object,EventArgs)
+  nameWithType: CalendarAutoFormatDialog.OnSelChangedScheme(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnSelChangedScheme(Object,EventArgs)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void OnSelChangedScheme (object source, EventArgs e);
+    parameters:
+    - id: source
+      type: System.Object
+      description: Parameter description to be filled
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.SaveComponent
+  id: SaveComponent
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  langs:
+  - csharp
+  name: SaveComponent()
+  nameWithType: CalendarAutoFormatDialog.SaveComponent()
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.SaveComponent()
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void SaveComponent ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Forms.Form
+  isExternal: false
+  name: System.Windows.Forms.Form
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.#ctor(System.Web.UI.WebControls.Calendar)
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  isExternal: false
+  name: CalendarAutoFormatDialog(Calendar)
+  nameWithType: CalendarAutoFormatDialog.CalendarAutoFormatDialog(Calendar)
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.CalendarAutoFormatDialog(Calendar)
+- uid: System.Web.UI.WebControls.Calendar
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: Calendar
+  nameWithType: Calendar
+  fullName: System.Web.UI.WebControls.Calendar
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.DoDelayLoadActions
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  isExternal: false
+  name: DoDelayLoadActions()
+  nameWithType: CalendarAutoFormatDialog.DoDelayLoadActions()
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.DoDelayLoadActions()
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnActivated(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  isExternal: false
+  name: OnActivated(Object,EventArgs)
+  nameWithType: CalendarAutoFormatDialog.OnActivated(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnActivated(Object,EventArgs)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnOKClicked(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  isExternal: false
+  name: OnOKClicked(Object,EventArgs)
+  nameWithType: CalendarAutoFormatDialog.OnOKClicked(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnOKClicked(Object,EventArgs)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnSelChangedScheme(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  isExternal: false
+  name: OnSelChangedScheme(Object,EventArgs)
+  nameWithType: CalendarAutoFormatDialog.OnSelChangedScheme(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.OnSelChangedScheme(Object,EventArgs)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.SaveComponent
+  parent: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog
+  isExternal: false
+  name: SaveComponent()
+  nameWithType: CalendarAutoFormatDialog.SaveComponent()
+  fullName: System.Web.UI.Design.WebControls.CalendarAutoFormatDialog.SaveComponent()

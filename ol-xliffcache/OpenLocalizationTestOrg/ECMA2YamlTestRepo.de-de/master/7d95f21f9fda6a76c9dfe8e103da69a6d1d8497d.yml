@@ -1,0 +1,693 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Security.Cryptography.ECCurve
+  id: ECCurve
+  children:
+  - System.Security.Cryptography.ECCurve.A
+  - System.Security.Cryptography.ECCurve.B
+  - System.Security.Cryptography.ECCurve.Cofactor
+  - System.Security.Cryptography.ECCurve.CreateFromFriendlyName(System.String)
+  - System.Security.Cryptography.ECCurve.CreateFromOid(System.Security.Cryptography.Oid)
+  - System.Security.Cryptography.ECCurve.CreateFromValue(System.String)
+  - System.Security.Cryptography.ECCurve.CurveType
+  - System.Security.Cryptography.ECCurve.G
+  - System.Security.Cryptography.ECCurve.Hash
+  - System.Security.Cryptography.ECCurve.IsCharacteristic2
+  - System.Security.Cryptography.ECCurve.IsExplicit
+  - System.Security.Cryptography.ECCurve.IsNamed
+  - System.Security.Cryptography.ECCurve.IsPrime
+  - System.Security.Cryptography.ECCurve.Oid
+  - System.Security.Cryptography.ECCurve.Order
+  - System.Security.Cryptography.ECCurve.Polynomial
+  - System.Security.Cryptography.ECCurve.Prime
+  - System.Security.Cryptography.ECCurve.Seed
+  - System.Security.Cryptography.ECCurve.Validate
+  langs:
+  - csharp
+  name: ECCurve
+  nameWithType: ECCurve
+  fullName: System.Security.Cryptography.ECCurve
+  type: Struct
+  syntax:
+    content: public struct ECCurve
+  inheritance:
+  - System.Object
+  - System.ValueType
+  implements: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.A
+  id: A
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: A
+  nameWithType: ECCurve.A
+  fullName: System.Security.Cryptography.ECCurve.A
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] A;
+    return:
+      type: System.Byte[]
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.B
+  id: B
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: B
+  nameWithType: ECCurve.B
+  fullName: System.Security.Cryptography.ECCurve.B
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] B;
+    return:
+      type: System.Byte[]
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.Cofactor
+  id: Cofactor
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: Cofactor
+  nameWithType: ECCurve.Cofactor
+  fullName: System.Security.Cryptography.ECCurve.Cofactor
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] Cofactor;
+    return:
+      type: System.Byte[]
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.CreateFromFriendlyName(System.String)
+  id: CreateFromFriendlyName(System.String)
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: CreateFromFriendlyName(String)
+  nameWithType: ECCurve.CreateFromFriendlyName(String)
+  fullName: System.Security.Cryptography.ECCurve.CreateFromFriendlyName(String)
+  type: Method
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public static System.Security.Cryptography.ECCurve CreateFromFriendlyName (string oidFriendlyName);
+    parameters:
+    - id: oidFriendlyName
+      type: System.String
+      description: Parameter description to be filled
+    return:
+      type: System.Security.Cryptography.ECCurve
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.CreateFromOid(System.Security.Cryptography.Oid)
+  id: CreateFromOid(System.Security.Cryptography.Oid)
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: CreateFromOid(Oid)
+  nameWithType: ECCurve.CreateFromOid(Oid)
+  fullName: System.Security.Cryptography.ECCurve.CreateFromOid(Oid)
+  type: Method
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public static System.Security.Cryptography.ECCurve CreateFromOid (System.Security.Cryptography.Oid curveOid);
+    parameters:
+    - id: curveOid
+      type: System.Security.Cryptography.Oid
+      description: Parameter description to be filled
+    return:
+      type: System.Security.Cryptography.ECCurve
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.CreateFromValue(System.String)
+  id: CreateFromValue(System.String)
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: CreateFromValue(String)
+  nameWithType: ECCurve.CreateFromValue(String)
+  fullName: System.Security.Cryptography.ECCurve.CreateFromValue(String)
+  type: Method
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public static System.Security.Cryptography.ECCurve CreateFromValue (string oidValue);
+    parameters:
+    - id: oidValue
+      type: System.String
+      description: Parameter description to be filled
+    return:
+      type: System.Security.Cryptography.ECCurve
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.CurveType
+  id: CurveType
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: CurveType
+  nameWithType: ECCurve.CurveType
+  fullName: System.Security.Cryptography.ECCurve.CurveType
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public System.Security.Cryptography.ECCurve.ECCurveType CurveType;
+    return:
+      type: System.Security.Cryptography.ECCurve.ECCurveType
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.G
+  id: G
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: G
+  nameWithType: ECCurve.G
+  fullName: System.Security.Cryptography.ECCurve.G
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public System.Security.Cryptography.ECPoint G;
+    return:
+      type: System.Security.Cryptography.ECPoint
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.Hash
+  id: Hash
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: Hash
+  nameWithType: ECCurve.Hash
+  fullName: System.Security.Cryptography.ECCurve.Hash
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public Nullable<System.Security.Cryptography.HashAlgorithmName> Hash;
+    return:
+      type: System.Nullable{System.Security.Cryptography.HashAlgorithmName}
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.IsCharacteristic2
+  id: IsCharacteristic2
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: IsCharacteristic2
+  nameWithType: ECCurve.IsCharacteristic2
+  fullName: System.Security.Cryptography.ECCurve.IsCharacteristic2
+  type: Property
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public bool IsCharacteristic2 { get; }
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.IsExplicit
+  id: IsExplicit
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: IsExplicit
+  nameWithType: ECCurve.IsExplicit
+  fullName: System.Security.Cryptography.ECCurve.IsExplicit
+  type: Property
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public bool IsExplicit { get; }
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.IsNamed
+  id: IsNamed
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: IsNamed
+  nameWithType: ECCurve.IsNamed
+  fullName: System.Security.Cryptography.ECCurve.IsNamed
+  type: Property
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public bool IsNamed { get; }
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.IsPrime
+  id: IsPrime
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: IsPrime
+  nameWithType: ECCurve.IsPrime
+  fullName: System.Security.Cryptography.ECCurve.IsPrime
+  type: Property
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public bool IsPrime { get; }
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.Oid
+  id: Oid
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: Oid
+  nameWithType: ECCurve.Oid
+  fullName: System.Security.Cryptography.ECCurve.Oid
+  type: Property
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public System.Security.Cryptography.Oid Oid { get; }
+    return:
+      type: System.Security.Cryptography.Oid
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.Order
+  id: Order
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: Order
+  nameWithType: ECCurve.Order
+  fullName: System.Security.Cryptography.ECCurve.Order
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] Order;
+    return:
+      type: System.Byte[]
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.Polynomial
+  id: Polynomial
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: Polynomial
+  nameWithType: ECCurve.Polynomial
+  fullName: System.Security.Cryptography.ECCurve.Polynomial
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] Polynomial;
+    return:
+      type: System.Byte[]
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.Prime
+  id: Prime
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: Prime
+  nameWithType: ECCurve.Prime
+  fullName: System.Security.Cryptography.ECCurve.Prime
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] Prime;
+    return:
+      type: System.Byte[]
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.Seed
+  id: Seed
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: Seed
+  nameWithType: ECCurve.Seed
+  fullName: System.Security.Cryptography.ECCurve.Seed
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public byte[] Seed;
+    return:
+      type: System.Byte[]
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Security.Cryptography.ECCurve.Validate
+  id: Validate
+  parent: System.Security.Cryptography.ECCurve
+  langs:
+  - csharp
+  name: Validate()
+  nameWithType: ECCurve.Validate()
+  fullName: System.Security.Cryptography.ECCurve.Validate()
+  type: Method
+  assemblies:
+  - System.Core
+  namespace: System.Security.Cryptography
+  syntax:
+    content: public void Validate ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.ValueType
+  isExternal: false
+  name: System.ValueType
+- uid: System.Security.Cryptography.ECCurve.A
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: A
+  nameWithType: ECCurve.A
+  fullName: System.Security.Cryptography.ECCurve.A
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]
+- uid: System.Security.Cryptography.ECCurve.B
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: B
+  nameWithType: ECCurve.B
+  fullName: System.Security.Cryptography.ECCurve.B
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]
+- uid: System.Security.Cryptography.ECCurve.Cofactor
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: Cofactor
+  nameWithType: ECCurve.Cofactor
+  fullName: System.Security.Cryptography.ECCurve.Cofactor
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]
+- uid: System.Security.Cryptography.ECCurve.CreateFromFriendlyName(System.String)
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: CreateFromFriendlyName(String)
+  nameWithType: ECCurve.CreateFromFriendlyName(String)
+  fullName: System.Security.Cryptography.ECCurve.CreateFromFriendlyName(String)
+- uid: System.Security.Cryptography.ECCurve
+  parent: System.Security.Cryptography
+  isExternal: false
+  name: ECCurve
+  nameWithType: ECCurve
+  fullName: System.Security.Cryptography.ECCurve
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Security.Cryptography.ECCurve.CreateFromOid(System.Security.Cryptography.Oid)
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: CreateFromOid(Oid)
+  nameWithType: ECCurve.CreateFromOid(Oid)
+  fullName: System.Security.Cryptography.ECCurve.CreateFromOid(Oid)
+- uid: System.Security.Cryptography.ECCurve
+  parent: System.Security.Cryptography
+  isExternal: false
+  name: ECCurve
+  nameWithType: ECCurve
+  fullName: System.Security.Cryptography.ECCurve
+- uid: System.Security.Cryptography.Oid
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: Oid
+  nameWithType: Oid
+  fullName: System.Security.Cryptography.Oid
+- uid: System.Security.Cryptography.ECCurve.CreateFromValue(System.String)
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: CreateFromValue(String)
+  nameWithType: ECCurve.CreateFromValue(String)
+  fullName: System.Security.Cryptography.ECCurve.CreateFromValue(String)
+- uid: System.Security.Cryptography.ECCurve
+  parent: System.Security.Cryptography
+  isExternal: false
+  name: ECCurve
+  nameWithType: ECCurve
+  fullName: System.Security.Cryptography.ECCurve
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Security.Cryptography.ECCurve.CurveType
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: CurveType
+  nameWithType: ECCurve.CurveType
+  fullName: System.Security.Cryptography.ECCurve.CurveType
+- uid: System.Security.Cryptography.ECCurve.ECCurveType
+  parent: System.Security.Cryptography
+  isExternal: false
+  name: ECCurve+ECCurveType
+  nameWithType: ECCurve+ECCurveType
+  fullName: System.Security.Cryptography.ECCurve+ECCurveType
+- uid: System.Security.Cryptography.ECCurve.G
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: G
+  nameWithType: ECCurve.G
+  fullName: System.Security.Cryptography.ECCurve.G
+- uid: System.Security.Cryptography.ECPoint
+  parent: System.Security.Cryptography
+  isExternal: false
+  name: ECPoint
+  nameWithType: ECPoint
+  fullName: System.Security.Cryptography.ECPoint
+- uid: System.Security.Cryptography.ECCurve.Hash
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: Hash
+  nameWithType: ECCurve.Hash
+  fullName: System.Security.Cryptography.ECCurve.Hash
+- uid: System.Nullable{System.Security.Cryptography.HashAlgorithmName}
+  parent: System
+  isExternal: false
+  name: Nullable<HashAlgorithmName>
+  nameWithType: Nullable<HashAlgorithmName>
+  fullName: System.Nullable<System.Security.Cryptography.HashAlgorithmName>
+- uid: System.Security.Cryptography.ECCurve.IsCharacteristic2
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: IsCharacteristic2
+  nameWithType: ECCurve.IsCharacteristic2
+  fullName: System.Security.Cryptography.ECCurve.IsCharacteristic2
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Security.Cryptography.ECCurve.IsExplicit
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: IsExplicit
+  nameWithType: ECCurve.IsExplicit
+  fullName: System.Security.Cryptography.ECCurve.IsExplicit
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Security.Cryptography.ECCurve.IsNamed
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: IsNamed
+  nameWithType: ECCurve.IsNamed
+  fullName: System.Security.Cryptography.ECCurve.IsNamed
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Security.Cryptography.ECCurve.IsPrime
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: IsPrime
+  nameWithType: ECCurve.IsPrime
+  fullName: System.Security.Cryptography.ECCurve.IsPrime
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Security.Cryptography.ECCurve.Oid
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: Oid
+  nameWithType: ECCurve.Oid
+  fullName: System.Security.Cryptography.ECCurve.Oid
+- uid: System.Security.Cryptography.Oid
+  parent: System.Security.Cryptography
+  isExternal: true
+  name: Oid
+  nameWithType: Oid
+  fullName: System.Security.Cryptography.Oid
+- uid: System.Security.Cryptography.ECCurve.Order
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: Order
+  nameWithType: ECCurve.Order
+  fullName: System.Security.Cryptography.ECCurve.Order
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]
+- uid: System.Security.Cryptography.ECCurve.Polynomial
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: Polynomial
+  nameWithType: ECCurve.Polynomial
+  fullName: System.Security.Cryptography.ECCurve.Polynomial
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]
+- uid: System.Security.Cryptography.ECCurve.Prime
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: Prime
+  nameWithType: ECCurve.Prime
+  fullName: System.Security.Cryptography.ECCurve.Prime
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]
+- uid: System.Security.Cryptography.ECCurve.Seed
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: Seed
+  nameWithType: ECCurve.Seed
+  fullName: System.Security.Cryptography.ECCurve.Seed
+- uid: System.Byte
+  parent: System
+  isExternal: false
+  name: Byte
+  nameWithType: Byte
+  fullName: System.Byte[]
+- uid: System.Security.Cryptography.ECCurve.Validate
+  parent: System.Security.Cryptography.ECCurve
+  isExternal: false
+  name: Validate()
+  nameWithType: ECCurve.Validate()
+  fullName: System.Security.Cryptography.ECCurve.Validate()

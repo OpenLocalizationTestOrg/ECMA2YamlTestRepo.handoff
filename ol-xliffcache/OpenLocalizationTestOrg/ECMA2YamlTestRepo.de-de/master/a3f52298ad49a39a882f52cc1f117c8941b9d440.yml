@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.Build.Execution.BuildSubmissionCompleteCallback
+  id: BuildSubmissionCompleteCallback
+  langs:
+  - csharp
+  name: BuildSubmissionCompleteCallback
+  nameWithType: BuildSubmissionCompleteCallback
+  fullName: Microsoft.Build.Execution.BuildSubmissionCompleteCallback
+  type: Delegate
+  syntax:
+    content: public delegate void BuildSubmissionCompleteCallback(BuildSubmission submission);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

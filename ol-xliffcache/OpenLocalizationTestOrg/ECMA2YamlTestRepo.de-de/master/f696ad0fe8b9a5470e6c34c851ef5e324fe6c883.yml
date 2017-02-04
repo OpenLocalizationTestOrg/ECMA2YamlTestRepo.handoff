@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.ComponentModel.Design.DesignSurfaceEventHandler
+  id: DesignSurfaceEventHandler
+  langs:
+  - csharp
+  name: DesignSurfaceEventHandler
+  nameWithType: DesignSurfaceEventHandler
+  fullName: System.ComponentModel.Design.DesignSurfaceEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void DesignSurfaceEventHandler(object sender, DesignSurfaceEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

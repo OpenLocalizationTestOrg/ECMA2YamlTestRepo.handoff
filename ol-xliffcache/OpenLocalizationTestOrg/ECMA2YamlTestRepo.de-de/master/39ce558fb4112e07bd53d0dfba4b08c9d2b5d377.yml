@@ -1,0 +1,175 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.TemplateBindingExpressionConverter
+  id: TemplateBindingExpressionConverter
+  children:
+  - System.Windows.TemplateBindingExpressionConverter.#ctor
+  - System.Windows.TemplateBindingExpressionConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  - System.Windows.TemplateBindingExpressionConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  langs:
+  - csharp
+  name: TemplateBindingExpressionConverter
+  nameWithType: TemplateBindingExpressionConverter
+  fullName: System.Windows.TemplateBindingExpressionConverter
+  type: Class
+  syntax:
+    content: 'public class TemplateBindingExpressionConverter : System.ComponentModel.TypeConverter'
+  inheritance:
+  - System.ComponentModel.TypeConverter
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.TemplateBindingExpressionConverter.#ctor
+  id: '#ctor'
+  parent: System.Windows.TemplateBindingExpressionConverter
+  langs:
+  - csharp
+  name: TemplateBindingExpressionConverter()
+  nameWithType: TemplateBindingExpressionConverter.TemplateBindingExpressionConverter()
+  fullName: System.Windows.TemplateBindingExpressionConverter.TemplateBindingExpressionConverter()
+  type: Constructor
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows
+  syntax:
+    content: public TemplateBindingExpressionConverter ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.TemplateBindingExpressionConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  id: CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  parent: System.Windows.TemplateBindingExpressionConverter
+  langs:
+  - csharp
+  name: CanConvertTo(ITypeDescriptorContext,Type)
+  nameWithType: TemplateBindingExpressionConverter.CanConvertTo(ITypeDescriptorContext,Type)
+  fullName: System.Windows.TemplateBindingExpressionConverter.CanConvertTo(ITypeDescriptorContext,Type)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows
+  syntax:
+    content: public override bool CanConvertTo (System.ComponentModel.ITypeDescriptorContext context, Type destinationType);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    - id: destinationType
+      type: System.Type
+      description: Parameter description to be filled
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.TemplateBindingExpressionConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  id: ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  parent: System.Windows.TemplateBindingExpressionConverter
+  langs:
+  - csharp
+  name: ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  nameWithType: TemplateBindingExpressionConverter.ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  fullName: System.Windows.TemplateBindingExpressionConverter.ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows
+  syntax:
+    content: public override object ConvertTo (System.ComponentModel.ITypeDescriptorContext context, System.Globalization.CultureInfo culture, object value, Type destinationType);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    - id: culture
+      type: System.Globalization.CultureInfo
+      description: Parameter description to be filled
+    - id: value
+      type: System.Object
+      description: Parameter description to be filled
+    - id: destinationType
+      type: System.Type
+      description: Parameter description to be filled
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.ComponentModel.TypeConverter
+  isExternal: false
+  name: System.ComponentModel.TypeConverter
+- uid: System.Windows.TemplateBindingExpressionConverter.#ctor
+  parent: System.Windows.TemplateBindingExpressionConverter
+  isExternal: false
+  name: TemplateBindingExpressionConverter()
+  nameWithType: TemplateBindingExpressionConverter.TemplateBindingExpressionConverter()
+  fullName: System.Windows.TemplateBindingExpressionConverter.TemplateBindingExpressionConverter()
+- uid: System.Windows.TemplateBindingExpressionConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  parent: System.Windows.TemplateBindingExpressionConverter
+  isExternal: false
+  name: CanConvertTo(ITypeDescriptorContext,Type)
+  nameWithType: TemplateBindingExpressionConverter.CanConvertTo(ITypeDescriptorContext,Type)
+  fullName: System.Windows.TemplateBindingExpressionConverter.CanConvertTo(ITypeDescriptorContext,Type)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Windows.TemplateBindingExpressionConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)
+  parent: System.Windows.TemplateBindingExpressionConverter
+  isExternal: false
+  name: ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  nameWithType: TemplateBindingExpressionConverter.ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+  fullName: System.Windows.TemplateBindingExpressionConverter.ConvertTo(ITypeDescriptorContext,CultureInfo,Object,Type)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.Globalization.CultureInfo
+  parent: System.Globalization
+  isExternal: false
+  name: CultureInfo
+  nameWithType: CultureInfo
+  fullName: System.Globalization.CultureInfo
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type

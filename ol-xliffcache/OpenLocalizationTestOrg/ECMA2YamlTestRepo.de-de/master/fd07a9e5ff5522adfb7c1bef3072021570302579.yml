@@ -1,0 +1,104 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Data.Services.DataServiceHostFactory
+  id: DataServiceHostFactory
+  children:
+  - System.Data.Services.DataServiceHostFactory.#ctor
+  - System.Data.Services.DataServiceHostFactory.CreateServiceHost(System.Type,System.Uri[])
+  langs:
+  - csharp
+  name: DataServiceHostFactory
+  nameWithType: DataServiceHostFactory
+  fullName: System.Data.Services.DataServiceHostFactory
+  type: Class
+  syntax:
+    content: 'public class DataServiceHostFactory : System.ServiceModel.Activation.ServiceHostFactory'
+  inheritance:
+  - System.ServiceModel.Activation.ServiceHostFactory
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Data.Services.DataServiceHostFactory.#ctor
+  id: '#ctor'
+  parent: System.Data.Services.DataServiceHostFactory
+  langs:
+  - csharp
+  name: DataServiceHostFactory()
+  nameWithType: DataServiceHostFactory.DataServiceHostFactory()
+  fullName: System.Data.Services.DataServiceHostFactory.DataServiceHostFactory()
+  type: Constructor
+  assemblies:
+  - System.Data.Services
+  namespace: System.Data.Services
+  syntax:
+    content: public DataServiceHostFactory ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Data.Services.DataServiceHostFactory.CreateServiceHost(System.Type,System.Uri[])
+  id: CreateServiceHost(System.Type,System.Uri[])
+  parent: System.Data.Services.DataServiceHostFactory
+  langs:
+  - csharp
+  name: CreateServiceHost(Type,Uri[])
+  nameWithType: DataServiceHostFactory.CreateServiceHost(Type,Uri[])
+  fullName: System.Data.Services.DataServiceHostFactory.CreateServiceHost(Type,Uri[])
+  type: Method
+  assemblies:
+  - System.Data.Services
+  namespace: System.Data.Services
+  syntax:
+    content: protected override System.ServiceModel.ServiceHost CreateServiceHost (Type serviceType, Uri[] baseAddresses);
+    parameters:
+    - id: serviceType
+      type: System.Type
+      description: Parameter description to be filled
+    - id: baseAddresses
+      type: System.Uri[]
+      description: Parameter description to be filled
+    return:
+      type: System.ServiceModel.ServiceHost
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.ServiceModel.Activation.ServiceHostFactory
+  isExternal: false
+  name: System.ServiceModel.Activation.ServiceHostFactory
+- uid: System.Data.Services.DataServiceHostFactory.#ctor
+  parent: System.Data.Services.DataServiceHostFactory
+  isExternal: false
+  name: DataServiceHostFactory()
+  nameWithType: DataServiceHostFactory.DataServiceHostFactory()
+  fullName: System.Data.Services.DataServiceHostFactory.DataServiceHostFactory()
+- uid: System.Data.Services.DataServiceHostFactory.CreateServiceHost(System.Type,System.Uri[])
+  parent: System.Data.Services.DataServiceHostFactory
+  isExternal: false
+  name: CreateServiceHost(Type,Uri[])
+  nameWithType: DataServiceHostFactory.CreateServiceHost(Type,Uri[])
+  fullName: System.Data.Services.DataServiceHostFactory.CreateServiceHost(Type,Uri[])
+- uid: System.ServiceModel.ServiceHost
+  parent: System.ServiceModel
+  isExternal: true
+  name: ServiceHost
+  nameWithType: ServiceHost
+  fullName: System.ServiceModel.ServiceHost
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.Uri
+  parent: System
+  isExternal: true
+  name: Uri
+  nameWithType: Uri
+  fullName: System.Uri[]

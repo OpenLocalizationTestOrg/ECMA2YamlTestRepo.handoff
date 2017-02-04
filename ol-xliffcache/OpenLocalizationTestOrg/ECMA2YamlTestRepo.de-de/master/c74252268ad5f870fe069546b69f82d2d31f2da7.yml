@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Data.OleDb.OleDbInfoMessageEventHandler
+  id: OleDbInfoMessageEventHandler
+  langs:
+  - csharp
+  name: OleDbInfoMessageEventHandler
+  nameWithType: OleDbInfoMessageEventHandler
+  fullName: System.Data.OleDb.OleDbInfoMessageEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void OleDbInfoMessageEventHandler(object sender, OleDbInfoMessageEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate
