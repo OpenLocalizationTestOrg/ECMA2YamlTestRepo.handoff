@@ -1,0 +1,157 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor
+  id: DataGridColumnCollectionEditor
+  children:
+  - System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.#ctor
+  - System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)
+  - System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)
+  langs:
+  - csharp
+  name: DataGridColumnCollectionEditor
+  nameWithType: DataGridColumnCollectionEditor
+  fullName: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor
+  type: Class
+  syntax:
+    content: 'public class DataGridColumnCollectionEditor : System.Drawing.Design.UITypeEditor'
+  inheritance:
+  - System.Drawing.Design.UITypeEditor
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.#ctor
+  id: '#ctor'
+  parent: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor
+  langs:
+  - csharp
+  name: DataGridColumnCollectionEditor()
+  nameWithType: DataGridColumnCollectionEditor.DataGridColumnCollectionEditor()
+  fullName: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.DataGridColumnCollectionEditor()
+  type: Constructor
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public DataGridColumnCollectionEditor ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)
+  id: EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)
+  parent: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor
+  langs:
+  - csharp
+  name: EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  nameWithType: DataGridColumnCollectionEditor.EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  fullName: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public override object EditValue (System.ComponentModel.ITypeDescriptorContext context, IServiceProvider provider, object value);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    - id: provider
+      type: System.IServiceProvider
+      description: Parameter description to be filled
+    - id: value
+      type: System.Object
+      description: Parameter description to be filled
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)
+  id: GetEditStyle(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor
+  langs:
+  - csharp
+  name: GetEditStyle(ITypeDescriptorContext)
+  nameWithType: DataGridColumnCollectionEditor.GetEditStyle(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.GetEditStyle(ITypeDescriptorContext)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public override System.Drawing.Design.UITypeEditorEditStyle GetEditStyle (System.ComponentModel.ITypeDescriptorContext context);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    return:
+      type: System.Drawing.Design.UITypeEditorEditStyle
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Drawing.Design.UITypeEditor
+  isExternal: false
+  name: System.Drawing.Design.UITypeEditor
+- uid: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.#ctor
+  parent: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor
+  isExternal: false
+  name: DataGridColumnCollectionEditor()
+  nameWithType: DataGridColumnCollectionEditor.DataGridColumnCollectionEditor()
+  fullName: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.DataGridColumnCollectionEditor()
+- uid: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.EditValue(System.ComponentModel.ITypeDescriptorContext,System.IServiceProvider,System.Object)
+  parent: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor
+  isExternal: false
+  name: EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  nameWithType: DataGridColumnCollectionEditor.EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+  fullName: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.EditValue(ITypeDescriptorContext,IServiceProvider,Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.IServiceProvider
+  parent: System
+  isExternal: false
+  name: IServiceProvider
+  nameWithType: IServiceProvider
+  fullName: System.IServiceProvider
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.GetEditStyle(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor
+  isExternal: false
+  name: GetEditStyle(ITypeDescriptorContext)
+  nameWithType: DataGridColumnCollectionEditor.GetEditStyle(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.WebControls.DataGridColumnCollectionEditor.GetEditStyle(ITypeDescriptorContext)
+- uid: System.Drawing.Design.UITypeEditorEditStyle
+  parent: System.Drawing.Design
+  isExternal: true
+  name: UITypeEditorEditStyle
+  nameWithType: UITypeEditorEditStyle
+  fullName: System.Drawing.Design.UITypeEditorEditStyle
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext

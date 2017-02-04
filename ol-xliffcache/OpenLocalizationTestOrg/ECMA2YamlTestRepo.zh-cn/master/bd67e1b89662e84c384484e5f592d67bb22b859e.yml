@@ -1,0 +1,401 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.ComponentModel.DataAnnotations.ValidationException
+  id: ValidationException
+  children:
+  - System.ComponentModel.DataAnnotations.ValidationException.#ctor
+  - System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String)
+  - System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.Exception)
+  - System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)
+  - System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)
+  - System.ComponentModel.DataAnnotations.ValidationException.ValidationAttribute
+  - System.ComponentModel.DataAnnotations.ValidationException.ValidationResult
+  - System.ComponentModel.DataAnnotations.ValidationException.Value
+  langs:
+  - csharp
+  name: ValidationException
+  nameWithType: ValidationException
+  fullName: System.ComponentModel.DataAnnotations.ValidationException
+  type: Class
+  syntax:
+    content: 'public class ValidationException : Exception'
+  inheritance:
+  - System.Object
+  - System.Exception
+  implements: []
+  inheritedMembers:
+  - System.Exception.Data
+  - System.Exception.GetBaseException
+  - System.Exception.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  - System.Exception.GetType
+  - System.Exception.HelpLink
+  - System.Exception.HResult
+  - System.Exception.InnerException
+  - System.Exception.Message
+  - System.Exception.SerializeObjectState
+  - System.Exception.Source
+  - System.Exception.StackTrace
+  - System.Exception.TargetSite
+  - System.Exception.ToString
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor
+  id: '#ctor'
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  langs:
+  - csharp
+  name: ValidationException()
+  nameWithType: ValidationException.ValidationException()
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException()
+  type: Constructor
+  assemblies:
+  - System.ComponentModel.DataAnnotations
+  namespace: System.ComponentModel.DataAnnotations
+  syntax:
+    content: public ValidationException ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String)
+  id: '#ctor(System.String)'
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  langs:
+  - csharp
+  name: ValidationException(String)
+  nameWithType: ValidationException.ValidationException(String)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(String)
+  type: Constructor
+  assemblies:
+  - System.ComponentModel.DataAnnotations
+  namespace: System.ComponentModel.DataAnnotations
+  syntax:
+    content: public ValidationException (string message);
+    parameters:
+    - id: message
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  id: '#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)'
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  langs:
+  - csharp
+  name: ValidationException(SerializationInfo,StreamingContext)
+  nameWithType: ValidationException.ValidationException(SerializationInfo,StreamingContext)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(SerializationInfo,StreamingContext)
+  type: Constructor
+  assemblies:
+  - System.ComponentModel.DataAnnotations
+  namespace: System.ComponentModel.DataAnnotations
+  syntax:
+    content: protected ValidationException (System.Runtime.Serialization.SerializationInfo info, System.Runtime.Serialization.StreamingContext context);
+    parameters:
+    - id: info
+      type: System.Runtime.Serialization.SerializationInfo
+      description: Parameter description to be filled
+    - id: context
+      type: System.Runtime.Serialization.StreamingContext
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.Exception)
+  id: '#ctor(System.String,System.Exception)'
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  langs:
+  - csharp
+  name: ValidationException(String,Exception)
+  nameWithType: ValidationException.ValidationException(String,Exception)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(String,Exception)
+  type: Constructor
+  assemblies:
+  - System.ComponentModel.DataAnnotations
+  namespace: System.ComponentModel.DataAnnotations
+  syntax:
+    content: public ValidationException (string message, Exception innerException);
+    parameters:
+    - id: message
+      type: System.String
+      description: Parameter description to be filled
+    - id: innerException
+      type: System.Exception
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)
+  id: '#ctor(System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)'
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  langs:
+  - csharp
+  name: ValidationException(ValidationResult,ValidationAttribute,Object)
+  nameWithType: ValidationException.ValidationException(ValidationResult,ValidationAttribute,Object)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(ValidationResult,ValidationAttribute,Object)
+  type: Constructor
+  assemblies:
+  - System.ComponentModel.DataAnnotations
+  namespace: System.ComponentModel.DataAnnotations
+  syntax:
+    content: public ValidationException (System.ComponentModel.DataAnnotations.ValidationResult validationResult, System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value);
+    parameters:
+    - id: validationResult
+      type: System.ComponentModel.DataAnnotations.ValidationResult
+      description: Parameter description to be filled
+    - id: validatingAttribute
+      type: System.ComponentModel.DataAnnotations.ValidationAttribute
+      description: Parameter description to be filled
+    - id: value
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)
+  id: '#ctor(System.String,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)'
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  langs:
+  - csharp
+  name: ValidationException(String,ValidationAttribute,Object)
+  nameWithType: ValidationException.ValidationException(String,ValidationAttribute,Object)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(String,ValidationAttribute,Object)
+  type: Constructor
+  assemblies:
+  - System.ComponentModel.DataAnnotations
+  namespace: System.ComponentModel.DataAnnotations
+  syntax:
+    content: public ValidationException (string errorMessage, System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value);
+    parameters:
+    - id: errorMessage
+      type: System.String
+      description: Parameter description to be filled
+    - id: validatingAttribute
+      type: System.ComponentModel.DataAnnotations.ValidationAttribute
+      description: Parameter description to be filled
+    - id: value
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.DataAnnotations.ValidationException.ValidationAttribute
+  id: ValidationAttribute
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  langs:
+  - csharp
+  name: ValidationAttribute
+  nameWithType: ValidationException.ValidationAttribute
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationAttribute
+  type: Property
+  assemblies:
+  - System.ComponentModel.DataAnnotations
+  namespace: System.ComponentModel.DataAnnotations
+  syntax:
+    content: public System.ComponentModel.DataAnnotations.ValidationAttribute ValidationAttribute { get; }
+    return:
+      type: System.ComponentModel.DataAnnotations.ValidationAttribute
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.DataAnnotations.ValidationException.ValidationResult
+  id: ValidationResult
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  langs:
+  - csharp
+  name: ValidationResult
+  nameWithType: ValidationException.ValidationResult
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationResult
+  type: Property
+  assemblies:
+  - System.ComponentModel.DataAnnotations
+  namespace: System.ComponentModel.DataAnnotations
+  syntax:
+    content: public System.ComponentModel.DataAnnotations.ValidationResult ValidationResult { get; }
+    return:
+      type: System.ComponentModel.DataAnnotations.ValidationResult
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.DataAnnotations.ValidationException.Value
+  id: Value
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  langs:
+  - csharp
+  name: Value
+  nameWithType: ValidationException.Value
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.Value
+  type: Property
+  assemblies:
+  - System.ComponentModel.DataAnnotations
+  namespace: System.ComponentModel.DataAnnotations
+  syntax:
+    content: public object Value { get; }
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Exception
+  isExternal: false
+  name: System.Exception
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  isExternal: false
+  name: ValidationException()
+  nameWithType: ValidationException.ValidationException()
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException()
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String)
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  isExternal: false
+  name: ValidationException(String)
+  nameWithType: ValidationException.ValidationException(String)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  isExternal: false
+  name: ValidationException(SerializationInfo,StreamingContext)
+  nameWithType: ValidationException.ValidationException(SerializationInfo,StreamingContext)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(SerializationInfo,StreamingContext)
+- uid: System.Runtime.Serialization.SerializationInfo
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: SerializationInfo
+  nameWithType: SerializationInfo
+  fullName: System.Runtime.Serialization.SerializationInfo
+- uid: System.Runtime.Serialization.StreamingContext
+  parent: System.Runtime.Serialization
+  isExternal: false
+  name: StreamingContext
+  nameWithType: StreamingContext
+  fullName: System.Runtime.Serialization.StreamingContext
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.Exception)
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  isExternal: false
+  name: ValidationException(String,Exception)
+  nameWithType: ValidationException.ValidationException(String,Exception)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(String,Exception)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  isExternal: false
+  name: ValidationException(ValidationResult,ValidationAttribute,Object)
+  nameWithType: ValidationException.ValidationException(ValidationResult,ValidationAttribute,Object)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(ValidationResult,ValidationAttribute,Object)
+- uid: System.ComponentModel.DataAnnotations.ValidationResult
+  parent: System.ComponentModel.DataAnnotations
+  isExternal: false
+  name: ValidationResult
+  nameWithType: ValidationResult
+  fullName: System.ComponentModel.DataAnnotations.ValidationResult
+- uid: System.ComponentModel.DataAnnotations.ValidationAttribute
+  parent: System.ComponentModel.DataAnnotations
+  isExternal: false
+  name: ValidationAttribute
+  nameWithType: ValidationAttribute
+  fullName: System.ComponentModel.DataAnnotations.ValidationAttribute
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  isExternal: false
+  name: ValidationException(String,ValidationAttribute,Object)
+  nameWithType: ValidationException.ValidationException(String,ValidationAttribute,Object)
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationException(String,ValidationAttribute,Object)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.ComponentModel.DataAnnotations.ValidationAttribute
+  parent: System.ComponentModel.DataAnnotations
+  isExternal: false
+  name: ValidationAttribute
+  nameWithType: ValidationAttribute
+  fullName: System.ComponentModel.DataAnnotations.ValidationAttribute
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.DataAnnotations.ValidationException.ValidationAttribute
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  isExternal: false
+  name: ValidationAttribute
+  nameWithType: ValidationException.ValidationAttribute
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationAttribute
+- uid: System.ComponentModel.DataAnnotations.ValidationAttribute
+  parent: System.ComponentModel.DataAnnotations
+  isExternal: false
+  name: ValidationAttribute
+  nameWithType: ValidationAttribute
+  fullName: System.ComponentModel.DataAnnotations.ValidationAttribute
+- uid: System.ComponentModel.DataAnnotations.ValidationException.ValidationResult
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  isExternal: false
+  name: ValidationResult
+  nameWithType: ValidationException.ValidationResult
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.ValidationResult
+- uid: System.ComponentModel.DataAnnotations.ValidationResult
+  parent: System.ComponentModel.DataAnnotations
+  isExternal: false
+  name: ValidationResult
+  nameWithType: ValidationResult
+  fullName: System.ComponentModel.DataAnnotations.ValidationResult
+- uid: System.ComponentModel.DataAnnotations.ValidationException.Value
+  parent: System.ComponentModel.DataAnnotations.ValidationException
+  isExternal: false
+  name: Value
+  nameWithType: ValidationException.Value
+  fullName: System.ComponentModel.DataAnnotations.ValidationException.Value
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

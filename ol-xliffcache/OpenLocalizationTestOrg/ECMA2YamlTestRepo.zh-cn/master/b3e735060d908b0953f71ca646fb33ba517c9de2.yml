@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Input.ExecutedRoutedEventHandler
+  id: ExecutedRoutedEventHandler
+  langs:
+  - csharp
+  name: ExecutedRoutedEventHandler
+  nameWithType: ExecutedRoutedEventHandler
+  fullName: System.Windows.Input.ExecutedRoutedEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void ExecutedRoutedEventHandler(object sender, ExecutedRoutedEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

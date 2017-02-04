@@ -1,0 +1,208 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Media.Animation.EasingFunctionBase
+  id: EasingFunctionBase
+  children:
+  - System.Windows.Media.Animation.EasingFunctionBase.#ctor
+  - System.Windows.Media.Animation.EasingFunctionBase.Ease(System.Double)
+  - System.Windows.Media.Animation.EasingFunctionBase.EaseInCore(System.Double)
+  - System.Windows.Media.Animation.EasingFunctionBase.EasingMode
+  - System.Windows.Media.Animation.EasingFunctionBase.EasingModeProperty
+  langs:
+  - csharp
+  name: EasingFunctionBase
+  nameWithType: EasingFunctionBase
+  fullName: System.Windows.Media.Animation.EasingFunctionBase
+  type: Class
+  syntax:
+    content: 'public abstract class EasingFunctionBase : System.Windows.Freezable, System.Windows.Media.Animation.IEasingFunction'
+  inheritance:
+  - System.Windows.Freezable
+  implements:
+  - System.Windows.Media.Animation.IEasingFunction
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.EasingFunctionBase.#ctor
+  id: '#ctor'
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  langs:
+  - csharp
+  name: EasingFunctionBase()
+  nameWithType: EasingFunctionBase.EasingFunctionBase()
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.EasingFunctionBase()
+  type: Constructor
+  assemblies:
+  - PresentationCore
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: protected EasingFunctionBase ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.EasingFunctionBase.Ease(System.Double)
+  id: Ease(System.Double)
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  langs:
+  - csharp
+  name: Ease(Double)
+  nameWithType: EasingFunctionBase.Ease(Double)
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.Ease(Double)
+  type: Method
+  assemblies:
+  - PresentationCore
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: public double Ease (double normalizedTime);
+    parameters:
+    - id: normalizedTime
+      type: System.Double
+      description: Parameter description to be filled
+    return:
+      type: System.Double
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.EasingFunctionBase.EaseInCore(System.Double)
+  id: EaseInCore(System.Double)
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  langs:
+  - csharp
+  name: EaseInCore(Double)
+  nameWithType: EasingFunctionBase.EaseInCore(Double)
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.EaseInCore(Double)
+  type: Method
+  assemblies:
+  - PresentationCore
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: protected abstract double EaseInCore (double normalizedTime);
+    parameters:
+    - id: normalizedTime
+      type: System.Double
+      description: Parameter description to be filled
+    return:
+      type: System.Double
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.EasingFunctionBase.EasingMode
+  id: EasingMode
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  langs:
+  - csharp
+  name: EasingMode
+  nameWithType: EasingFunctionBase.EasingMode
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.EasingMode
+  type: Property
+  assemblies:
+  - PresentationCore
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: public System.Windows.Media.Animation.EasingMode EasingMode { get; set; }
+    return:
+      type: System.Windows.Media.Animation.EasingMode
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.EasingFunctionBase.EasingModeProperty
+  id: EasingModeProperty
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  langs:
+  - csharp
+  name: EasingModeProperty
+  nameWithType: EasingFunctionBase.EasingModeProperty
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.EasingModeProperty
+  type: Field
+  assemblies:
+  - PresentationCore
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: public static readonly System.Windows.DependencyProperty EasingModeProperty;
+    return:
+      type: System.Windows.DependencyProperty
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Freezable
+  isExternal: false
+  name: System.Windows.Freezable
+- uid: System.Windows.Media.Animation.EasingFunctionBase.#ctor
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  isExternal: false
+  name: EasingFunctionBase()
+  nameWithType: EasingFunctionBase.EasingFunctionBase()
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.EasingFunctionBase()
+- uid: System.Windows.Media.Animation.EasingFunctionBase.Ease(System.Double)
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  isExternal: false
+  name: Ease(Double)
+  nameWithType: EasingFunctionBase.Ease(Double)
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.Ease(Double)
+- uid: System.Double
+  parent: System
+  isExternal: false
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Double
+  parent: System
+  isExternal: false
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Windows.Media.Animation.EasingFunctionBase.EaseInCore(System.Double)
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  isExternal: false
+  name: EaseInCore(Double)
+  nameWithType: EasingFunctionBase.EaseInCore(Double)
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.EaseInCore(Double)
+- uid: System.Double
+  parent: System
+  isExternal: false
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Double
+  parent: System
+  isExternal: false
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Windows.Media.Animation.EasingFunctionBase.EasingMode
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  isExternal: false
+  name: EasingMode
+  nameWithType: EasingFunctionBase.EasingMode
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.EasingMode
+- uid: System.Windows.Media.Animation.EasingMode
+  parent: System.Windows.Media.Animation
+  isExternal: false
+  name: EasingMode
+  nameWithType: EasingMode
+  fullName: System.Windows.Media.Animation.EasingMode
+- uid: System.Windows.Media.Animation.EasingFunctionBase.EasingModeProperty
+  parent: System.Windows.Media.Animation.EasingFunctionBase
+  isExternal: false
+  name: EasingModeProperty
+  nameWithType: EasingFunctionBase.EasingModeProperty
+  fullName: System.Windows.Media.Animation.EasingFunctionBase.EasingModeProperty
+- uid: System.Windows.DependencyProperty
+  parent: System.Windows
+  isExternal: true
+  name: DependencyProperty
+  nameWithType: DependencyProperty
+  fullName: System.Windows.DependencyProperty

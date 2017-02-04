@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Data.SqlClient.OnChangeEventHandler
+  id: OnChangeEventHandler
+  langs:
+  - csharp
+  name: OnChangeEventHandler
+  nameWithType: OnChangeEventHandler
+  fullName: System.Data.SqlClient.OnChangeEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void OnChangeEventHandler(object sender, SqlNotificationEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

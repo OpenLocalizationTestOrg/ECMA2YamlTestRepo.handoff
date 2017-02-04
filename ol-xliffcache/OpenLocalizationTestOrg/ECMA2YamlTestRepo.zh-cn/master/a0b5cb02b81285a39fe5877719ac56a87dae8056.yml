@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Input.StylusEventHandler
+  id: StylusEventHandler
+  langs:
+  - csharp
+  name: StylusEventHandler
+  nameWithType: StylusEventHandler
+  fullName: System.Windows.Input.StylusEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void StylusEventHandler(object sender, StylusEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

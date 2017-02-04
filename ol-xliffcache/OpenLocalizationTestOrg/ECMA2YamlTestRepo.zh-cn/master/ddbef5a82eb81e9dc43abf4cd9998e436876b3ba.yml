@@ -1,0 +1,85 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Web.UI.Design.DesignerAutoFormatStyle
+  id: DesignerAutoFormatStyle
+  children:
+  - System.Web.UI.Design.DesignerAutoFormatStyle.#ctor
+  - System.Web.UI.Design.DesignerAutoFormatStyle.VerticalAlign
+  langs:
+  - csharp
+  name: DesignerAutoFormatStyle
+  nameWithType: DesignerAutoFormatStyle
+  fullName: System.Web.UI.Design.DesignerAutoFormatStyle
+  type: Class
+  syntax:
+    content: 'public class DesignerAutoFormatStyle : System.Web.UI.WebControls.Style'
+  inheritance:
+  - System.Web.UI.WebControls.Style
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.DesignerAutoFormatStyle.#ctor
+  id: '#ctor'
+  parent: System.Web.UI.Design.DesignerAutoFormatStyle
+  langs:
+  - csharp
+  name: DesignerAutoFormatStyle()
+  nameWithType: DesignerAutoFormatStyle.DesignerAutoFormatStyle()
+  fullName: System.Web.UI.Design.DesignerAutoFormatStyle.DesignerAutoFormatStyle()
+  type: Constructor
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design
+  syntax:
+    content: public DesignerAutoFormatStyle ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.DesignerAutoFormatStyle.VerticalAlign
+  id: VerticalAlign
+  parent: System.Web.UI.Design.DesignerAutoFormatStyle
+  langs:
+  - csharp
+  name: VerticalAlign
+  nameWithType: DesignerAutoFormatStyle.VerticalAlign
+  fullName: System.Web.UI.Design.DesignerAutoFormatStyle.VerticalAlign
+  type: Property
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design
+  syntax:
+    content: public System.Web.UI.WebControls.VerticalAlign VerticalAlign { get; set; }
+    return:
+      type: System.Web.UI.WebControls.VerticalAlign
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Web.UI.WebControls.Style
+  isExternal: false
+  name: System.Web.UI.WebControls.Style
+- uid: System.Web.UI.Design.DesignerAutoFormatStyle.#ctor
+  parent: System.Web.UI.Design.DesignerAutoFormatStyle
+  isExternal: false
+  name: DesignerAutoFormatStyle()
+  nameWithType: DesignerAutoFormatStyle.DesignerAutoFormatStyle()
+  fullName: System.Web.UI.Design.DesignerAutoFormatStyle.DesignerAutoFormatStyle()
+- uid: System.Web.UI.Design.DesignerAutoFormatStyle.VerticalAlign
+  parent: System.Web.UI.Design.DesignerAutoFormatStyle
+  isExternal: false
+  name: VerticalAlign
+  nameWithType: DesignerAutoFormatStyle.VerticalAlign
+  fullName: System.Web.UI.Design.DesignerAutoFormatStyle.VerticalAlign
+- uid: System.Web.UI.WebControls.VerticalAlign
+  parent: System.Web.UI.WebControls
+  isExternal: true
+  name: VerticalAlign
+  nameWithType: VerticalAlign
+  fullName: System.Web.UI.WebControls.VerticalAlign

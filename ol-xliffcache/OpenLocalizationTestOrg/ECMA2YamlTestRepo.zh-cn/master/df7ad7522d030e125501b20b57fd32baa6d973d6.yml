@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Input.TextCompositionEventHandler
+  id: TextCompositionEventHandler
+  langs:
+  - csharp
+  name: TextCompositionEventHandler
+  nameWithType: TextCompositionEventHandler
+  fullName: System.Windows.Input.TextCompositionEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void TextCompositionEventHandler(object sender, TextCompositionEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

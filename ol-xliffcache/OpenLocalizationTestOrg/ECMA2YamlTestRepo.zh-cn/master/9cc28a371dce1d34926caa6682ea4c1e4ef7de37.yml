@@ -1,0 +1,158 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.JScript.JScriptCodeProvider
+  id: JScriptCodeProvider
+  children:
+  - Microsoft.JScript.JScriptCodeProvider.#ctor
+  - Microsoft.JScript.JScriptCodeProvider.CreateCompiler
+  - Microsoft.JScript.JScriptCodeProvider.CreateGenerator
+  - Microsoft.JScript.JScriptCodeProvider.FileExtension
+  langs:
+  - csharp
+  name: JScriptCodeProvider
+  nameWithType: JScriptCodeProvider
+  fullName: Microsoft.JScript.JScriptCodeProvider
+  type: Class
+  syntax:
+    content: >-
+      [System.ComponentModel.DesignerCategory("code")]
+
+      public sealed class JScriptCodeProvider : System.CodeDom.Compiler.CodeDomProvider
+  inheritance:
+  - System.CodeDom.Compiler.CodeDomProvider
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.JScript.JScriptCodeProvider.#ctor
+  id: '#ctor'
+  parent: Microsoft.JScript.JScriptCodeProvider
+  langs:
+  - csharp
+  name: JScriptCodeProvider()
+  nameWithType: JScriptCodeProvider.JScriptCodeProvider()
+  fullName: Microsoft.JScript.JScriptCodeProvider.JScriptCodeProvider()
+  type: Constructor
+  assemblies:
+  - Microsoft.JScript
+  namespace: Microsoft.JScript
+  syntax:
+    content: public JScriptCodeProvider ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.JScript.JScriptCodeProvider.CreateCompiler
+  id: CreateCompiler
+  parent: Microsoft.JScript.JScriptCodeProvider
+  langs:
+  - csharp
+  name: CreateCompiler()
+  nameWithType: JScriptCodeProvider.CreateCompiler()
+  fullName: Microsoft.JScript.JScriptCodeProvider.CreateCompiler()
+  type: Method
+  assemblies:
+  - Microsoft.JScript
+  namespace: Microsoft.JScript
+  syntax:
+    content: public override System.CodeDom.Compiler.ICodeCompiler CreateCompiler ();
+    parameters: []
+    return:
+      type: System.CodeDom.Compiler.ICodeCompiler
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.JScript.JScriptCodeProvider.CreateGenerator
+  id: CreateGenerator
+  parent: Microsoft.JScript.JScriptCodeProvider
+  langs:
+  - csharp
+  name: CreateGenerator()
+  nameWithType: JScriptCodeProvider.CreateGenerator()
+  fullName: Microsoft.JScript.JScriptCodeProvider.CreateGenerator()
+  type: Method
+  assemblies:
+  - Microsoft.JScript
+  namespace: Microsoft.JScript
+  syntax:
+    content: public override System.CodeDom.Compiler.ICodeGenerator CreateGenerator ();
+    parameters: []
+    return:
+      type: System.CodeDom.Compiler.ICodeGenerator
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.JScript.JScriptCodeProvider.FileExtension
+  id: FileExtension
+  parent: Microsoft.JScript.JScriptCodeProvider
+  langs:
+  - csharp
+  name: FileExtension
+  nameWithType: JScriptCodeProvider.FileExtension
+  fullName: Microsoft.JScript.JScriptCodeProvider.FileExtension
+  type: Property
+  assemblies:
+  - Microsoft.JScript
+  namespace: Microsoft.JScript
+  syntax:
+    content: public override string FileExtension { get; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.CodeDom.Compiler.CodeDomProvider
+  isExternal: false
+  name: System.CodeDom.Compiler.CodeDomProvider
+- uid: Microsoft.JScript.JScriptCodeProvider.#ctor
+  parent: Microsoft.JScript.JScriptCodeProvider
+  isExternal: false
+  name: JScriptCodeProvider()
+  nameWithType: JScriptCodeProvider.JScriptCodeProvider()
+  fullName: Microsoft.JScript.JScriptCodeProvider.JScriptCodeProvider()
+- uid: Microsoft.JScript.JScriptCodeProvider.CreateCompiler
+  parent: Microsoft.JScript.JScriptCodeProvider
+  isExternal: false
+  name: CreateCompiler()
+  nameWithType: JScriptCodeProvider.CreateCompiler()
+  fullName: Microsoft.JScript.JScriptCodeProvider.CreateCompiler()
+- uid: System.CodeDom.Compiler.ICodeCompiler
+  parent: System.CodeDom.Compiler
+  isExternal: true
+  name: ICodeCompiler
+  nameWithType: ICodeCompiler
+  fullName: System.CodeDom.Compiler.ICodeCompiler
+- uid: Microsoft.JScript.JScriptCodeProvider.CreateGenerator
+  parent: Microsoft.JScript.JScriptCodeProvider
+  isExternal: false
+  name: CreateGenerator()
+  nameWithType: JScriptCodeProvider.CreateGenerator()
+  fullName: Microsoft.JScript.JScriptCodeProvider.CreateGenerator()
+- uid: System.CodeDom.Compiler.ICodeGenerator
+  parent: System.CodeDom.Compiler
+  isExternal: true
+  name: ICodeGenerator
+  nameWithType: ICodeGenerator
+  fullName: System.CodeDom.Compiler.ICodeGenerator
+- uid: Microsoft.JScript.JScriptCodeProvider.FileExtension
+  parent: Microsoft.JScript.JScriptCodeProvider
+  isExternal: false
+  name: FileExtension
+  nameWithType: JScriptCodeProvider.FileExtension
+  fullName: Microsoft.JScript.JScriptCodeProvider.FileExtension
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String

@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Linq.Expressions.GotoExpressionKind
+  id: GotoExpressionKind
+  children:
+  - System.Linq.Expressions.GotoExpressionKind.Break
+  - System.Linq.Expressions.GotoExpressionKind.Continue
+  - System.Linq.Expressions.GotoExpressionKind.Goto
+  - System.Linq.Expressions.GotoExpressionKind.Return
+  langs:
+  - csharp
+  name: GotoExpressionKind
+  nameWithType: GotoExpressionKind
+  fullName: System.Linq.Expressions.GotoExpressionKind
+  type: Enum
+  syntax:
+    content: public enum GotoExpressionKind
+  inheritance:
+  - System.Object
+  - System.ValueType
+  - System.Enum
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.Expressions.GotoExpressionKind.Break
+  id: Break
+  parent: System.Linq.Expressions.GotoExpressionKind
+  langs:
+  - csharp
+  name: Break
+  nameWithType: GotoExpressionKind.Break
+  fullName: System.Linq.Expressions.GotoExpressionKind.Break
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Linq.Expressions
+  syntax:
+    content: Break
+    return:
+      type: System.Linq.Expressions.GotoExpressionKind
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.Expressions.GotoExpressionKind.Continue
+  id: Continue
+  parent: System.Linq.Expressions.GotoExpressionKind
+  langs:
+  - csharp
+  name: Continue
+  nameWithType: GotoExpressionKind.Continue
+  fullName: System.Linq.Expressions.GotoExpressionKind.Continue
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Linq.Expressions
+  syntax:
+    content: Continue
+    return:
+      type: System.Linq.Expressions.GotoExpressionKind
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.Expressions.GotoExpressionKind.Goto
+  id: Goto
+  parent: System.Linq.Expressions.GotoExpressionKind
+  langs:
+  - csharp
+  name: Goto
+  nameWithType: GotoExpressionKind.Goto
+  fullName: System.Linq.Expressions.GotoExpressionKind.Goto
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Linq.Expressions
+  syntax:
+    content: Goto
+    return:
+      type: System.Linq.Expressions.GotoExpressionKind
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.Expressions.GotoExpressionKind.Return
+  id: Return
+  parent: System.Linq.Expressions.GotoExpressionKind
+  langs:
+  - csharp
+  name: Return
+  nameWithType: GotoExpressionKind.Return
+  fullName: System.Linq.Expressions.GotoExpressionKind.Return
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Linq.Expressions
+  syntax:
+    content: Return
+    return:
+      type: System.Linq.Expressions.GotoExpressionKind
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Enum
+  isExternal: false
+  name: System.Enum
+- uid: System.Linq.Expressions.GotoExpressionKind.Break
+  parent: System.Linq.Expressions.GotoExpressionKind
+  isExternal: false
+  name: Break
+  nameWithType: GotoExpressionKind.Break
+  fullName: System.Linq.Expressions.GotoExpressionKind.Break
+- uid: System.Linq.Expressions.GotoExpressionKind
+  parent: System.Linq.Expressions
+  isExternal: false
+  name: GotoExpressionKind
+  nameWithType: GotoExpressionKind
+  fullName: System.Linq.Expressions.GotoExpressionKind
+- uid: System.Linq.Expressions.GotoExpressionKind.Continue
+  parent: System.Linq.Expressions.GotoExpressionKind
+  isExternal: false
+  name: Continue
+  nameWithType: GotoExpressionKind.Continue
+  fullName: System.Linq.Expressions.GotoExpressionKind.Continue
+- uid: System.Linq.Expressions.GotoExpressionKind
+  parent: System.Linq.Expressions
+  isExternal: false
+  name: GotoExpressionKind
+  nameWithType: GotoExpressionKind
+  fullName: System.Linq.Expressions.GotoExpressionKind
+- uid: System.Linq.Expressions.GotoExpressionKind.Goto
+  parent: System.Linq.Expressions.GotoExpressionKind
+  isExternal: false
+  name: Goto
+  nameWithType: GotoExpressionKind.Goto
+  fullName: System.Linq.Expressions.GotoExpressionKind.Goto
+- uid: System.Linq.Expressions.GotoExpressionKind
+  parent: System.Linq.Expressions
+  isExternal: false
+  name: GotoExpressionKind
+  nameWithType: GotoExpressionKind
+  fullName: System.Linq.Expressions.GotoExpressionKind
+- uid: System.Linq.Expressions.GotoExpressionKind.Return
+  parent: System.Linq.Expressions.GotoExpressionKind
+  isExternal: false
+  name: Return
+  nameWithType: GotoExpressionKind.Return
+  fullName: System.Linq.Expressions.GotoExpressionKind.Return
+- uid: System.Linq.Expressions.GotoExpressionKind
+  parent: System.Linq.Expressions
+  isExternal: false
+  name: GotoExpressionKind
+  nameWithType: GotoExpressionKind
+  fullName: System.Linq.Expressions.GotoExpressionKind

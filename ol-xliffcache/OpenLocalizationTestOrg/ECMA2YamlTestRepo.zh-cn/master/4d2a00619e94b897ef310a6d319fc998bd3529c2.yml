@@ -1,0 +1,306 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Data.DataChangedEventManager
+  id: DataChangedEventManager
+  children:
+  - System.Windows.Data.DataChangedEventManager.AddHandler(System.Windows.Data.DataSourceProvider,System.EventHandler{System.EventArgs})
+  - System.Windows.Data.DataChangedEventManager.AddListener(System.Windows.Data.DataSourceProvider,System.Windows.IWeakEventListener)
+  - System.Windows.Data.DataChangedEventManager.NewListenerList
+  - System.Windows.Data.DataChangedEventManager.RemoveHandler(System.Windows.Data.DataSourceProvider,System.EventHandler{System.EventArgs})
+  - System.Windows.Data.DataChangedEventManager.RemoveListener(System.Windows.Data.DataSourceProvider,System.Windows.IWeakEventListener)
+  - System.Windows.Data.DataChangedEventManager.StartListening(System.Object)
+  - System.Windows.Data.DataChangedEventManager.StopListening(System.Object)
+  langs:
+  - csharp
+  name: DataChangedEventManager
+  nameWithType: DataChangedEventManager
+  fullName: System.Windows.Data.DataChangedEventManager
+  type: Class
+  syntax:
+    content: 'public class DataChangedEventManager : System.Windows.WeakEventManager'
+  inheritance:
+  - System.Windows.WeakEventManager
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Data.DataChangedEventManager.AddHandler(System.Windows.Data.DataSourceProvider,System.EventHandler{System.EventArgs})
+  id: AddHandler(System.Windows.Data.DataSourceProvider,System.EventHandler{System.EventArgs})
+  parent: System.Windows.Data.DataChangedEventManager
+  langs:
+  - csharp
+  name: AddHandler(DataSourceProvider,EventHandler<EventArgs>)
+  nameWithType: DataChangedEventManager.AddHandler(DataSourceProvider,EventHandler<EventArgs>)
+  fullName: System.Windows.Data.DataChangedEventManager.AddHandler(DataSourceProvider,EventHandler<EventArgs>)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Data
+  syntax:
+    content: public static void AddHandler (System.Windows.Data.DataSourceProvider source, EventHandler<EventArgs> handler);
+    parameters:
+    - id: source
+      type: System.Windows.Data.DataSourceProvider
+      description: Parameter description to be filled
+    - id: handler
+      type: System.EventHandler{System.EventArgs}
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Data.DataChangedEventManager.AddListener(System.Windows.Data.DataSourceProvider,System.Windows.IWeakEventListener)
+  id: AddListener(System.Windows.Data.DataSourceProvider,System.Windows.IWeakEventListener)
+  parent: System.Windows.Data.DataChangedEventManager
+  langs:
+  - csharp
+  name: AddListener(DataSourceProvider,IWeakEventListener)
+  nameWithType: DataChangedEventManager.AddListener(DataSourceProvider,IWeakEventListener)
+  fullName: System.Windows.Data.DataChangedEventManager.AddListener(DataSourceProvider,IWeakEventListener)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Data
+  syntax:
+    content: public static void AddListener (System.Windows.Data.DataSourceProvider source, System.Windows.IWeakEventListener listener);
+    parameters:
+    - id: source
+      type: System.Windows.Data.DataSourceProvider
+      description: Parameter description to be filled
+    - id: listener
+      type: System.Windows.IWeakEventListener
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Data.DataChangedEventManager.NewListenerList
+  id: NewListenerList
+  parent: System.Windows.Data.DataChangedEventManager
+  langs:
+  - csharp
+  name: NewListenerList()
+  nameWithType: DataChangedEventManager.NewListenerList()
+  fullName: System.Windows.Data.DataChangedEventManager.NewListenerList()
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Data
+  syntax:
+    content: protected override System.Windows.WeakEventManager.ListenerList NewListenerList ();
+    parameters: []
+    return:
+      type: System.Windows.WeakEventManager+ListenerList
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Data.DataChangedEventManager.RemoveHandler(System.Windows.Data.DataSourceProvider,System.EventHandler{System.EventArgs})
+  id: RemoveHandler(System.Windows.Data.DataSourceProvider,System.EventHandler{System.EventArgs})
+  parent: System.Windows.Data.DataChangedEventManager
+  langs:
+  - csharp
+  name: RemoveHandler(DataSourceProvider,EventHandler<EventArgs>)
+  nameWithType: DataChangedEventManager.RemoveHandler(DataSourceProvider,EventHandler<EventArgs>)
+  fullName: System.Windows.Data.DataChangedEventManager.RemoveHandler(DataSourceProvider,EventHandler<EventArgs>)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Data
+  syntax:
+    content: public static void RemoveHandler (System.Windows.Data.DataSourceProvider source, EventHandler<EventArgs> handler);
+    parameters:
+    - id: source
+      type: System.Windows.Data.DataSourceProvider
+      description: Parameter description to be filled
+    - id: handler
+      type: System.EventHandler{System.EventArgs}
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Data.DataChangedEventManager.RemoveListener(System.Windows.Data.DataSourceProvider,System.Windows.IWeakEventListener)
+  id: RemoveListener(System.Windows.Data.DataSourceProvider,System.Windows.IWeakEventListener)
+  parent: System.Windows.Data.DataChangedEventManager
+  langs:
+  - csharp
+  name: RemoveListener(DataSourceProvider,IWeakEventListener)
+  nameWithType: DataChangedEventManager.RemoveListener(DataSourceProvider,IWeakEventListener)
+  fullName: System.Windows.Data.DataChangedEventManager.RemoveListener(DataSourceProvider,IWeakEventListener)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Data
+  syntax:
+    content: public static void RemoveListener (System.Windows.Data.DataSourceProvider source, System.Windows.IWeakEventListener listener);
+    parameters:
+    - id: source
+      type: System.Windows.Data.DataSourceProvider
+      description: Parameter description to be filled
+    - id: listener
+      type: System.Windows.IWeakEventListener
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Data.DataChangedEventManager.StartListening(System.Object)
+  id: StartListening(System.Object)
+  parent: System.Windows.Data.DataChangedEventManager
+  langs:
+  - csharp
+  name: StartListening(Object)
+  nameWithType: DataChangedEventManager.StartListening(Object)
+  fullName: System.Windows.Data.DataChangedEventManager.StartListening(Object)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Data
+  syntax:
+    content: protected override void StartListening (object source);
+    parameters:
+    - id: source
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Data.DataChangedEventManager.StopListening(System.Object)
+  id: StopListening(System.Object)
+  parent: System.Windows.Data.DataChangedEventManager
+  langs:
+  - csharp
+  name: StopListening(Object)
+  nameWithType: DataChangedEventManager.StopListening(Object)
+  fullName: System.Windows.Data.DataChangedEventManager.StopListening(Object)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Data
+  syntax:
+    content: protected override void StopListening (object source);
+    parameters:
+    - id: source
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.WeakEventManager
+  isExternal: false
+  name: System.Windows.WeakEventManager
+- uid: System.Windows.Data.DataChangedEventManager.AddHandler(System.Windows.Data.DataSourceProvider,System.EventHandler{System.EventArgs})
+  parent: System.Windows.Data.DataChangedEventManager
+  isExternal: false
+  name: AddHandler(DataSourceProvider,EventHandler<EventArgs>)
+  nameWithType: DataChangedEventManager.AddHandler(DataSourceProvider,EventHandler<EventArgs>)
+  fullName: System.Windows.Data.DataChangedEventManager.AddHandler(DataSourceProvider,EventHandler<EventArgs>)
+- uid: System.Windows.Data.DataSourceProvider
+  parent: System.Windows.Data
+  isExternal: true
+  name: DataSourceProvider
+  nameWithType: DataSourceProvider
+  fullName: System.Windows.Data.DataSourceProvider
+- uid: System.EventHandler{System.EventArgs}
+  parent: System
+  isExternal: false
+  name: EventHandler<EventArgs>
+  nameWithType: EventHandler<EventArgs>
+  fullName: System.EventHandler<System.EventArgs>
+- uid: System.Windows.Data.DataChangedEventManager.AddListener(System.Windows.Data.DataSourceProvider,System.Windows.IWeakEventListener)
+  parent: System.Windows.Data.DataChangedEventManager
+  isExternal: false
+  name: AddListener(DataSourceProvider,IWeakEventListener)
+  nameWithType: DataChangedEventManager.AddListener(DataSourceProvider,IWeakEventListener)
+  fullName: System.Windows.Data.DataChangedEventManager.AddListener(DataSourceProvider,IWeakEventListener)
+- uid: System.Windows.Data.DataSourceProvider
+  parent: System.Windows.Data
+  isExternal: true
+  name: DataSourceProvider
+  nameWithType: DataSourceProvider
+  fullName: System.Windows.Data.DataSourceProvider
+- uid: System.Windows.IWeakEventListener
+  parent: System.Windows
+  isExternal: true
+  name: IWeakEventListener
+  nameWithType: IWeakEventListener
+  fullName: System.Windows.IWeakEventListener
+- uid: System.Windows.Data.DataChangedEventManager.NewListenerList
+  parent: System.Windows.Data.DataChangedEventManager
+  isExternal: false
+  name: NewListenerList()
+  nameWithType: DataChangedEventManager.NewListenerList()
+  fullName: System.Windows.Data.DataChangedEventManager.NewListenerList()
+- uid: System.Windows.WeakEventManager
+  parent: System.Windows
+  isExternal: true
+  name: WeakEventManager
+  nameWithType: WeakEventManager
+  fullName: System.Windows.WeakEventManager+ListenerList
+- uid: System.Windows.Data.DataChangedEventManager.RemoveHandler(System.Windows.Data.DataSourceProvider,System.EventHandler{System.EventArgs})
+  parent: System.Windows.Data.DataChangedEventManager
+  isExternal: false
+  name: RemoveHandler(DataSourceProvider,EventHandler<EventArgs>)
+  nameWithType: DataChangedEventManager.RemoveHandler(DataSourceProvider,EventHandler<EventArgs>)
+  fullName: System.Windows.Data.DataChangedEventManager.RemoveHandler(DataSourceProvider,EventHandler<EventArgs>)
+- uid: System.Windows.Data.DataSourceProvider
+  parent: System.Windows.Data
+  isExternal: true
+  name: DataSourceProvider
+  nameWithType: DataSourceProvider
+  fullName: System.Windows.Data.DataSourceProvider
+- uid: System.EventHandler{System.EventArgs}
+  parent: System
+  isExternal: false
+  name: EventHandler<EventArgs>
+  nameWithType: EventHandler<EventArgs>
+  fullName: System.EventHandler<System.EventArgs>
+- uid: System.Windows.Data.DataChangedEventManager.RemoveListener(System.Windows.Data.DataSourceProvider,System.Windows.IWeakEventListener)
+  parent: System.Windows.Data.DataChangedEventManager
+  isExternal: false
+  name: RemoveListener(DataSourceProvider,IWeakEventListener)
+  nameWithType: DataChangedEventManager.RemoveListener(DataSourceProvider,IWeakEventListener)
+  fullName: System.Windows.Data.DataChangedEventManager.RemoveListener(DataSourceProvider,IWeakEventListener)
+- uid: System.Windows.Data.DataSourceProvider
+  parent: System.Windows.Data
+  isExternal: true
+  name: DataSourceProvider
+  nameWithType: DataSourceProvider
+  fullName: System.Windows.Data.DataSourceProvider
+- uid: System.Windows.IWeakEventListener
+  parent: System.Windows
+  isExternal: true
+  name: IWeakEventListener
+  nameWithType: IWeakEventListener
+  fullName: System.Windows.IWeakEventListener
+- uid: System.Windows.Data.DataChangedEventManager.StartListening(System.Object)
+  parent: System.Windows.Data.DataChangedEventManager
+  isExternal: false
+  name: StartListening(Object)
+  nameWithType: DataChangedEventManager.StartListening(Object)
+  fullName: System.Windows.Data.DataChangedEventManager.StartListening(Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Windows.Data.DataChangedEventManager.StopListening(System.Object)
+  parent: System.Windows.Data.DataChangedEventManager
+  isExternal: false
+  name: StopListening(Object)
+  nameWithType: DataChangedEventManager.StopListening(Object)
+  fullName: System.Windows.Data.DataChangedEventManager.StopListening(Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object

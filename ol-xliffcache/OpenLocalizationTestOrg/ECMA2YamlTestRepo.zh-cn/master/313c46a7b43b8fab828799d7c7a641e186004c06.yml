@@ -1,0 +1,745 @@
+### YamlMime:ManagedReference
+items:
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  id: DriveListBox
+  children:
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.#ctor
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DataSource
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DisplayMember
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Dispose(System.Boolean)
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DrawMode
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Drive
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DropDownStyle
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ItemHeight
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items(System.Int32)
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.MaxLength
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnBackColorChanged(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnFontChanged(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnHandleCreated(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnSelectedIndexChanged(System.EventArgs)
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Refresh
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Sorted
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Text
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ValueMember
+  - Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.WndProc(System.Windows.Forms.Message@)
+  langs:
+  - csharp
+  name: DriveListBox
+  nameWithType: DriveListBox
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  type: Class
+  syntax:
+    content: >-
+      [System.ComponentModel.Designer(typeof(Microsoft.VisualBasic.Compatibility.VB6.CompatibilityComboBoxDesigner))]
+
+      [System.Obsolete("Microsoft.VisualBasic.Compatibility.* classes are obsolete and supported within 32 bit processes only. http://go.microsoft.com/fwlink/?linkid=160862")]
+
+      public class DriveListBox : System.Windows.Forms.ComboBox
+  inheritance:
+  - System.Windows.Forms.ComboBox
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.#ctor
+  id: '#ctor'
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: DriveListBox()
+  nameWithType: DriveListBox.DriveListBox()
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DriveListBox()
+  type: Constructor
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public DriveListBox ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DataSource
+  id: DataSource
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: DataSource
+  nameWithType: DriveListBox.DataSource
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DataSource
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public object DataSource { get; set; }
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DisplayMember
+  id: DisplayMember
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: DisplayMember
+  nameWithType: DriveListBox.DisplayMember
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DisplayMember
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public string DisplayMember { get; set; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: Dispose(Boolean)
+  nameWithType: DriveListBox.Dispose(Boolean)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Dispose(Boolean)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void Dispose (bool disposing);
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DrawMode
+  id: DrawMode
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: DrawMode
+  nameWithType: DriveListBox.DrawMode
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DrawMode
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public System.Windows.Forms.DrawMode DrawMode { get; }
+    return:
+      type: System.Windows.Forms.DrawMode
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Drive
+  id: Drive
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: Drive
+  nameWithType: DriveListBox.Drive
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Drive
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public string Drive { get; set; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DropDownStyle
+  id: DropDownStyle
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: DropDownStyle
+  nameWithType: DriveListBox.DropDownStyle
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DropDownStyle
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public System.Windows.Forms.ComboBoxStyle DropDownStyle { get; set; }
+    return:
+      type: System.Windows.Forms.ComboBoxStyle
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ItemHeight
+  id: ItemHeight
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: ItemHeight
+  nameWithType: DriveListBox.ItemHeight
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ItemHeight
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public int ItemHeight { get; }
+    return:
+      type: System.Int32
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items
+  id: Items
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: Items
+  nameWithType: DriveListBox.Items
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public System.Windows.Forms.ComboBox.ObjectCollection Items { get; }
+    return:
+      type: System.Windows.Forms.ComboBox+ObjectCollection
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items(System.Int32)
+  id: Items(System.Int32)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: Items(Int32)
+  nameWithType: DriveListBox.Items(Int32)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items(Int32)
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public string Items[int Index] { get; }
+    parameters:
+    - id: Index
+      type: System.Int32
+      description: Parameter description to be filled
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.MaxLength
+  id: MaxLength
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: MaxLength
+  nameWithType: DriveListBox.MaxLength
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.MaxLength
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public int MaxLength { get; set; }
+    return:
+      type: System.Int32
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnBackColorChanged(System.EventArgs)
+  id: OnBackColorChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: OnBackColorChanged(EventArgs)
+  nameWithType: DriveListBox.OnBackColorChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnBackColorChanged(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnBackColorChanged (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)
+  id: OnDrawItem(System.Windows.Forms.DrawItemEventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: OnDrawItem(DrawItemEventArgs)
+  nameWithType: DriveListBox.OnDrawItem(DrawItemEventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnDrawItem(DrawItemEventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnDrawItem (System.Windows.Forms.DrawItemEventArgs e);
+    parameters:
+    - id: e
+      type: System.Windows.Forms.DrawItemEventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnFontChanged(System.EventArgs)
+  id: OnFontChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: OnFontChanged(EventArgs)
+  nameWithType: DriveListBox.OnFontChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnFontChanged(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnFontChanged (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnHandleCreated(System.EventArgs)
+  id: OnHandleCreated(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: OnHandleCreated(EventArgs)
+  nameWithType: DriveListBox.OnHandleCreated(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnHandleCreated(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnHandleCreated (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnSelectedIndexChanged(System.EventArgs)
+  id: OnSelectedIndexChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: OnSelectedIndexChanged(EventArgs)
+  nameWithType: DriveListBox.OnSelectedIndexChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnSelectedIndexChanged(EventArgs)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void OnSelectedIndexChanged (EventArgs e);
+    parameters:
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Refresh
+  id: Refresh
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: Refresh()
+  nameWithType: DriveListBox.Refresh()
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Refresh()
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public override void Refresh ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Sorted
+  id: Sorted
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: Sorted
+  nameWithType: DriveListBox.Sorted
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Sorted
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public bool Sorted { get; }
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Text
+  id: Text
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: Text
+  nameWithType: DriveListBox.Text
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Text
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public string Text { get; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ValueMember
+  id: ValueMember
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: ValueMember
+  nameWithType: DriveListBox.ValueMember
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ValueMember
+  type: Property
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: public string ValueMember { get; set; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.WndProc(System.Windows.Forms.Message@)
+  id: WndProc(System.Windows.Forms.Message@)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  langs:
+  - csharp
+  name: WndProc(Message)
+  nameWithType: DriveListBox.WndProc(Message)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.WndProc(Message)
+  type: Method
+  assemblies:
+  - Microsoft.VisualBasic.Compatibility
+  namespace: Microsoft.VisualBasic.Compatibility.VB6
+  syntax:
+    content: protected override void WndProc (ref System.Windows.Forms.Message m);
+    parameters:
+    - id: m
+      type: System.Windows.Forms.Message
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Forms.ComboBox
+  isExternal: false
+  name: System.Windows.Forms.ComboBox
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.#ctor
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: DriveListBox()
+  nameWithType: DriveListBox.DriveListBox()
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DriveListBox()
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DataSource
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: DataSource
+  nameWithType: DriveListBox.DataSource
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DataSource
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DisplayMember
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: DisplayMember
+  nameWithType: DriveListBox.DisplayMember
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DisplayMember
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Dispose(System.Boolean)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: Dispose(Boolean)
+  nameWithType: DriveListBox.Dispose(Boolean)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Dispose(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DrawMode
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: DrawMode
+  nameWithType: DriveListBox.DrawMode
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DrawMode
+- uid: System.Windows.Forms.DrawMode
+  parent: System.Windows.Forms
+  isExternal: true
+  name: DrawMode
+  nameWithType: DrawMode
+  fullName: System.Windows.Forms.DrawMode
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Drive
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: Drive
+  nameWithType: DriveListBox.Drive
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Drive
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DropDownStyle
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: DropDownStyle
+  nameWithType: DriveListBox.DropDownStyle
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.DropDownStyle
+- uid: System.Windows.Forms.ComboBoxStyle
+  parent: System.Windows.Forms
+  isExternal: true
+  name: ComboBoxStyle
+  nameWithType: ComboBoxStyle
+  fullName: System.Windows.Forms.ComboBoxStyle
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ItemHeight
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: ItemHeight
+  nameWithType: DriveListBox.ItemHeight
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ItemHeight
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: Items
+  nameWithType: DriveListBox.Items
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items
+- uid: System.Windows.Forms.ComboBox
+  parent: System.Windows.Forms
+  isExternal: true
+  name: ComboBox
+  nameWithType: ComboBox
+  fullName: System.Windows.Forms.ComboBox+ObjectCollection
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items(System.Int32)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: Items(Int32)
+  nameWithType: DriveListBox.Items(Int32)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Items(Int32)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.MaxLength
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: MaxLength
+  nameWithType: DriveListBox.MaxLength
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.MaxLength
+- uid: System.Int32
+  parent: System
+  isExternal: false
+  name: Int32
+  nameWithType: Int32
+  fullName: System.Int32
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnBackColorChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: OnBackColorChanged(EventArgs)
+  nameWithType: DriveListBox.OnBackColorChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnBackColorChanged(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnDrawItem(System.Windows.Forms.DrawItemEventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: OnDrawItem(DrawItemEventArgs)
+  nameWithType: DriveListBox.OnDrawItem(DrawItemEventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnDrawItem(DrawItemEventArgs)
+- uid: System.Windows.Forms.DrawItemEventArgs
+  parent: System.Windows.Forms
+  isExternal: true
+  name: DrawItemEventArgs
+  nameWithType: DrawItemEventArgs
+  fullName: System.Windows.Forms.DrawItemEventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnFontChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: OnFontChanged(EventArgs)
+  nameWithType: DriveListBox.OnFontChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnFontChanged(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnHandleCreated(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: OnHandleCreated(EventArgs)
+  nameWithType: DriveListBox.OnHandleCreated(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnHandleCreated(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnSelectedIndexChanged(System.EventArgs)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: OnSelectedIndexChanged(EventArgs)
+  nameWithType: DriveListBox.OnSelectedIndexChanged(EventArgs)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.OnSelectedIndexChanged(EventArgs)
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Refresh
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: Refresh()
+  nameWithType: DriveListBox.Refresh()
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Refresh()
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Sorted
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: Sorted
+  nameWithType: DriveListBox.Sorted
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Sorted
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Text
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: Text
+  nameWithType: DriveListBox.Text
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.Text
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ValueMember
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: ValueMember
+  nameWithType: DriveListBox.ValueMember
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.ValueMember
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.WndProc(System.Windows.Forms.Message@)
+  parent: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox
+  isExternal: false
+  name: WndProc(Message)
+  nameWithType: DriveListBox.WndProc(Message)
+  fullName: Microsoft.VisualBasic.Compatibility.VB6.DriveListBox.WndProc(Message)
+- uid: System.Windows.Forms.Message
+  parent: System.Windows.Forms
+  isExternal: true
+  name: Message
+  nameWithType: Message
+  fullName: System.Windows.Forms.Message

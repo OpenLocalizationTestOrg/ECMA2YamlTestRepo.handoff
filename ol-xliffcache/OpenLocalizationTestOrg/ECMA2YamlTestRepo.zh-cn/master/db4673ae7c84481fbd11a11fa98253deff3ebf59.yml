@@ -1,0 +1,101 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter
+  id: DataSourceBooleanViewSchemaConverter
+  children:
+  - System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.#ctor
+  - System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)
+  langs:
+  - csharp
+  name: DataSourceBooleanViewSchemaConverter
+  nameWithType: DataSourceBooleanViewSchemaConverter
+  fullName: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter
+  type: Class
+  syntax:
+    content: 'public class DataSourceBooleanViewSchemaConverter : System.Web.UI.Design.DataSourceViewSchemaConverter'
+  inheritance:
+  - System.ComponentModel.TypeConverter
+  - System.Web.UI.Design.DataSourceViewSchemaConverter
+  implements: []
+  inheritedMembers:
+  - System.Web.UI.Design.DataSourceViewSchemaConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  - System.Web.UI.Design.DataSourceViewSchemaConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)
+  - System.Web.UI.Design.DataSourceViewSchemaConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext,System.Type)
+  - System.Web.UI.Design.DataSourceViewSchemaConverter.GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)
+  - System.Web.UI.Design.DataSourceViewSchemaConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.#ctor
+  id: '#ctor'
+  parent: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter
+  langs:
+  - csharp
+  name: DataSourceBooleanViewSchemaConverter()
+  nameWithType: DataSourceBooleanViewSchemaConverter.DataSourceBooleanViewSchemaConverter()
+  fullName: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.DataSourceBooleanViewSchemaConverter()
+  type: Constructor
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design
+  syntax:
+    content: public DataSourceBooleanViewSchemaConverter ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)
+  id: GetStandardValues(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter
+  langs:
+  - csharp
+  name: GetStandardValues(ITypeDescriptorContext)
+  nameWithType: DataSourceBooleanViewSchemaConverter.GetStandardValues(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.GetStandardValues(ITypeDescriptorContext)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design
+  syntax:
+    content: public override System.ComponentModel.TypeConverter.StandardValuesCollection GetStandardValues (System.ComponentModel.ITypeDescriptorContext context);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    return:
+      type: System.ComponentModel.TypeConverter+StandardValuesCollection
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Web.UI.Design.DataSourceViewSchemaConverter
+  isExternal: false
+  name: System.Web.UI.Design.DataSourceViewSchemaConverter
+- uid: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.#ctor
+  parent: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter
+  isExternal: false
+  name: DataSourceBooleanViewSchemaConverter()
+  nameWithType: DataSourceBooleanViewSchemaConverter.DataSourceBooleanViewSchemaConverter()
+  fullName: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.DataSourceBooleanViewSchemaConverter()
+- uid: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter
+  isExternal: false
+  name: GetStandardValues(ITypeDescriptorContext)
+  nameWithType: DataSourceBooleanViewSchemaConverter.GetStandardValues(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.DataSourceBooleanViewSchemaConverter.GetStandardValues(ITypeDescriptorContext)
+- uid: System.ComponentModel.TypeConverter
+  parent: System.ComponentModel
+  isExternal: true
+  name: TypeConverter
+  nameWithType: TypeConverter
+  fullName: System.ComponentModel.TypeConverter+StandardValuesCollection
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext

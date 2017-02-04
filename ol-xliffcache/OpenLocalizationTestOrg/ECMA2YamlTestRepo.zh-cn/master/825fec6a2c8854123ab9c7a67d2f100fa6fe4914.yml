@@ -1,0 +1,183 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  id: DataProviderNameConverter
+  children:
+  - System.Web.UI.Design.WebControls.DataProviderNameConverter.#ctor
+  - System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)
+  - System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)
+  - System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)
+  langs:
+  - csharp
+  name: DataProviderNameConverter
+  nameWithType: DataProviderNameConverter
+  fullName: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  type: Class
+  syntax:
+    content: 'public class DataProviderNameConverter : System.ComponentModel.StringConverter'
+  inheritance:
+  - System.ComponentModel.StringConverter
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.DataProviderNameConverter.#ctor
+  id: '#ctor'
+  parent: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  langs:
+  - csharp
+  name: DataProviderNameConverter()
+  nameWithType: DataProviderNameConverter.DataProviderNameConverter()
+  fullName: System.Web.UI.Design.WebControls.DataProviderNameConverter.DataProviderNameConverter()
+  type: Constructor
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public DataProviderNameConverter ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)
+  id: GetStandardValues(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  langs:
+  - csharp
+  name: GetStandardValues(ITypeDescriptorContext)
+  nameWithType: DataProviderNameConverter.GetStandardValues(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValues(ITypeDescriptorContext)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public override System.ComponentModel.TypeConverter.StandardValuesCollection GetStandardValues (System.ComponentModel.ITypeDescriptorContext context);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    return:
+      type: System.ComponentModel.TypeConverter+StandardValuesCollection
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)
+  id: GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  langs:
+  - csharp
+  name: GetStandardValuesExclusive(ITypeDescriptorContext)
+  nameWithType: DataProviderNameConverter.GetStandardValuesExclusive(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesExclusive(ITypeDescriptorContext)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public override bool GetStandardValuesExclusive (System.ComponentModel.ITypeDescriptorContext context);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)
+  id: GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  langs:
+  - csharp
+  name: GetStandardValuesSupported(ITypeDescriptorContext)
+  nameWithType: DataProviderNameConverter.GetStandardValuesSupported(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesSupported(ITypeDescriptorContext)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public override bool GetStandardValuesSupported (System.ComponentModel.ITypeDescriptorContext context);
+    parameters:
+    - id: context
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.ComponentModel.StringConverter
+  isExternal: false
+  name: System.ComponentModel.StringConverter
+- uid: System.Web.UI.Design.WebControls.DataProviderNameConverter.#ctor
+  parent: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  isExternal: false
+  name: DataProviderNameConverter()
+  nameWithType: DataProviderNameConverter.DataProviderNameConverter()
+  fullName: System.Web.UI.Design.WebControls.DataProviderNameConverter.DataProviderNameConverter()
+- uid: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValues(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  isExternal: false
+  name: GetStandardValues(ITypeDescriptorContext)
+  nameWithType: DataProviderNameConverter.GetStandardValues(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValues(ITypeDescriptorContext)
+- uid: System.ComponentModel.TypeConverter
+  parent: System.ComponentModel
+  isExternal: true
+  name: TypeConverter
+  nameWithType: TypeConverter
+  fullName: System.ComponentModel.TypeConverter+StandardValuesCollection
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesExclusive(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  isExternal: false
+  name: GetStandardValuesExclusive(ITypeDescriptorContext)
+  nameWithType: DataProviderNameConverter.GetStandardValuesExclusive(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesExclusive(ITypeDescriptorContext)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesSupported(System.ComponentModel.ITypeDescriptorContext)
+  parent: System.Web.UI.Design.WebControls.DataProviderNameConverter
+  isExternal: false
+  name: GetStandardValuesSupported(ITypeDescriptorContext)
+  nameWithType: DataProviderNameConverter.GetStandardValuesSupported(ITypeDescriptorContext)
+  fullName: System.Web.UI.Design.WebControls.DataProviderNameConverter.GetStandardValuesSupported(ITypeDescriptorContext)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext

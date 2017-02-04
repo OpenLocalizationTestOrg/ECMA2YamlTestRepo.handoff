@@ -1,0 +1,571 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  id: CollectionEditor.CollectionForm
+  children:
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.#ctor(System.ComponentModel.Design.CollectionEditor)
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.CanRemoveInstance(System.Object)
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.CanSelectMultipleInstances
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.CollectionItemType
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.CollectionType
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.Context
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.CreateInstance(System.Type)
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.DestroyInstance(System.Object)
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.DisplayError(System.Exception)
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.EditValue
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.GetService(System.Type)
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.Items
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.NewItemTypes
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.OnEditValueChanged
+  - System.ComponentModel.Design.CollectionEditor.CollectionForm.ShowEditorDialog(System.Windows.Forms.Design.IWindowsFormsEditorService)
+  langs:
+  - csharp
+  name: CollectionEditor+CollectionForm
+  nameWithType: CollectionEditor+CollectionForm
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm
+  type: Class
+  syntax:
+    content: 'protected abstract class CollectionEditor.CollectionForm : System.Windows.Forms.Form'
+  inheritance:
+  - System.Windows.Forms.Form
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.#ctor(System.ComponentModel.Design.CollectionEditor)
+  id: '#ctor(System.ComponentModel.Design.CollectionEditor)'
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: CollectionEditor+CollectionForm(CollectionEditor)
+  nameWithType: CollectionEditor+CollectionForm.CollectionEditor+CollectionForm(CollectionEditor)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CollectionEditor+CollectionForm(CollectionEditor)
+  type: Constructor
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: public CollectionForm (System.ComponentModel.Design.CollectionEditor editor);
+    parameters:
+    - id: editor
+      type: System.ComponentModel.Design.CollectionEditor
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CanRemoveInstance(System.Object)
+  id: CanRemoveInstance(System.Object)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: CanRemoveInstance(Object)
+  nameWithType: CollectionEditor+CollectionForm.CanRemoveInstance(Object)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CanRemoveInstance(Object)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected bool CanRemoveInstance (object value);
+    parameters:
+    - id: value
+      type: System.Object
+      description: Parameter description to be filled
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CanSelectMultipleInstances
+  id: CanSelectMultipleInstances
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: CanSelectMultipleInstances()
+  nameWithType: CollectionEditor+CollectionForm.CanSelectMultipleInstances()
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CanSelectMultipleInstances()
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected virtual bool CanSelectMultipleInstances ();
+    parameters: []
+    return:
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CollectionItemType
+  id: CollectionItemType
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: CollectionItemType
+  nameWithType: CollectionEditor+CollectionForm.CollectionItemType
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CollectionItemType
+  type: Property
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected Type CollectionItemType { get; }
+    return:
+      type: System.Type
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CollectionType
+  id: CollectionType
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: CollectionType
+  nameWithType: CollectionEditor+CollectionForm.CollectionType
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CollectionType
+  type: Property
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected Type CollectionType { get; }
+    return:
+      type: System.Type
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.Context
+  id: Context
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: Context
+  nameWithType: CollectionEditor+CollectionForm.Context
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.Context
+  type: Property
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected System.ComponentModel.ITypeDescriptorContext Context { get; }
+    return:
+      type: System.ComponentModel.ITypeDescriptorContext
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CreateInstance(System.Type)
+  id: CreateInstance(System.Type)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: CreateInstance(Type)
+  nameWithType: CollectionEditor+CollectionForm.CreateInstance(Type)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CreateInstance(Type)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected object CreateInstance (Type itemType);
+    parameters:
+    - id: itemType
+      type: System.Type
+      description: Parameter description to be filled
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.DestroyInstance(System.Object)
+  id: DestroyInstance(System.Object)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: DestroyInstance(Object)
+  nameWithType: CollectionEditor+CollectionForm.DestroyInstance(Object)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.DestroyInstance(Object)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected void DestroyInstance (object instance);
+    parameters:
+    - id: instance
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.DisplayError(System.Exception)
+  id: DisplayError(System.Exception)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: DisplayError(Exception)
+  nameWithType: CollectionEditor+CollectionForm.DisplayError(Exception)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.DisplayError(Exception)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected virtual void DisplayError (Exception e);
+    parameters:
+    - id: e
+      type: System.Exception
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.EditValue
+  id: EditValue
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: EditValue
+  nameWithType: CollectionEditor+CollectionForm.EditValue
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.EditValue
+  type: Property
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: public object EditValue { get; set; }
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.GetService(System.Type)
+  id: GetService(System.Type)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: GetService(Type)
+  nameWithType: CollectionEditor+CollectionForm.GetService(Type)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.GetService(Type)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected override object GetService (Type serviceType);
+    parameters:
+    - id: serviceType
+      type: System.Type
+      description: Parameter description to be filled
+    return:
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.Items
+  id: Items
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: Items
+  nameWithType: CollectionEditor+CollectionForm.Items
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.Items
+  type: Property
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected object[] Items { get; set; }
+    return:
+      type: System.Object[]
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.NewItemTypes
+  id: NewItemTypes
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: NewItemTypes
+  nameWithType: CollectionEditor+CollectionForm.NewItemTypes
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.NewItemTypes
+  type: Property
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected Type[] NewItemTypes { get; }
+    return:
+      type: System.Type[]
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.OnEditValueChanged
+  id: OnEditValueChanged
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: OnEditValueChanged()
+  nameWithType: CollectionEditor+CollectionForm.OnEditValueChanged()
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.OnEditValueChanged()
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected abstract void OnEditValueChanged ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.ShowEditorDialog(System.Windows.Forms.Design.IWindowsFormsEditorService)
+  id: ShowEditorDialog(System.Windows.Forms.Design.IWindowsFormsEditorService)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  langs:
+  - csharp
+  name: ShowEditorDialog(IWindowsFormsEditorService)
+  nameWithType: CollectionEditor+CollectionForm.ShowEditorDialog(IWindowsFormsEditorService)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.ShowEditorDialog(IWindowsFormsEditorService)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.ComponentModel.Design
+  syntax:
+    content: protected virtual System.Windows.Forms.DialogResult ShowEditorDialog (System.Windows.Forms.Design.IWindowsFormsEditorService edSvc);
+    parameters:
+    - id: edSvc
+      type: System.Windows.Forms.Design.IWindowsFormsEditorService
+      description: Parameter description to be filled
+    return:
+      type: System.Windows.Forms.DialogResult
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Forms.Form
+  isExternal: false
+  name: System.Windows.Forms.Form
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.#ctor(System.ComponentModel.Design.CollectionEditor)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: CollectionEditor+CollectionForm(CollectionEditor)
+  nameWithType: CollectionEditor+CollectionForm.CollectionEditor+CollectionForm(CollectionEditor)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CollectionEditor+CollectionForm(CollectionEditor)
+- uid: System.ComponentModel.Design.CollectionEditor
+  parent: System.ComponentModel.Design
+  isExternal: false
+  name: CollectionEditor
+  nameWithType: CollectionEditor
+  fullName: System.ComponentModel.Design.CollectionEditor
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CanRemoveInstance(System.Object)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: CanRemoveInstance(Object)
+  nameWithType: CollectionEditor+CollectionForm.CanRemoveInstance(Object)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CanRemoveInstance(Object)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CanSelectMultipleInstances
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: CanSelectMultipleInstances()
+  nameWithType: CollectionEditor+CollectionForm.CanSelectMultipleInstances()
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CanSelectMultipleInstances()
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CollectionItemType
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: CollectionItemType
+  nameWithType: CollectionEditor+CollectionForm.CollectionItemType
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CollectionItemType
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CollectionType
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: CollectionType
+  nameWithType: CollectionEditor+CollectionForm.CollectionType
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CollectionType
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.Context
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: Context
+  nameWithType: CollectionEditor+CollectionForm.Context
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.Context
+- uid: System.ComponentModel.ITypeDescriptorContext
+  parent: System.ComponentModel
+  isExternal: true
+  name: ITypeDescriptorContext
+  nameWithType: ITypeDescriptorContext
+  fullName: System.ComponentModel.ITypeDescriptorContext
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.CreateInstance(System.Type)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: CreateInstance(Type)
+  nameWithType: CollectionEditor+CollectionForm.CreateInstance(Type)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.CreateInstance(Type)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.DestroyInstance(System.Object)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: DestroyInstance(Object)
+  nameWithType: CollectionEditor+CollectionForm.DestroyInstance(Object)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.DestroyInstance(Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.DisplayError(System.Exception)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: DisplayError(Exception)
+  nameWithType: CollectionEditor+CollectionForm.DisplayError(Exception)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.DisplayError(Exception)
+- uid: System.Exception
+  parent: System
+  isExternal: false
+  name: Exception
+  nameWithType: Exception
+  fullName: System.Exception
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.EditValue
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: EditValue
+  nameWithType: CollectionEditor+CollectionForm.EditValue
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.EditValue
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.GetService(System.Type)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: GetService(Type)
+  nameWithType: CollectionEditor+CollectionForm.GetService(Type)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.GetService(Type)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.Items
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: Items
+  nameWithType: CollectionEditor+CollectionForm.Items
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.Items
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object[]
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.NewItemTypes
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: NewItemTypes
+  nameWithType: CollectionEditor+CollectionForm.NewItemTypes
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.NewItemTypes
+- uid: System.Type
+  parent: System
+  isExternal: false
+  name: Type
+  nameWithType: Type
+  fullName: System.Type[]
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.OnEditValueChanged
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: OnEditValueChanged()
+  nameWithType: CollectionEditor+CollectionForm.OnEditValueChanged()
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.OnEditValueChanged()
+- uid: System.ComponentModel.Design.CollectionEditor.CollectionForm.ShowEditorDialog(System.Windows.Forms.Design.IWindowsFormsEditorService)
+  parent: System.ComponentModel.Design.CollectionEditor.CollectionForm
+  isExternal: false
+  name: ShowEditorDialog(IWindowsFormsEditorService)
+  nameWithType: CollectionEditor+CollectionForm.ShowEditorDialog(IWindowsFormsEditorService)
+  fullName: System.ComponentModel.Design.CollectionEditor+CollectionForm.ShowEditorDialog(IWindowsFormsEditorService)
+- uid: System.Windows.Forms.DialogResult
+  parent: System.Windows.Forms
+  isExternal: true
+  name: DialogResult
+  nameWithType: DialogResult
+  fullName: System.Windows.Forms.DialogResult
+- uid: System.Windows.Forms.Design.IWindowsFormsEditorService
+  parent: System.Windows.Forms.Design
+  isExternal: true
+  name: IWindowsFormsEditorService
+  nameWithType: IWindowsFormsEditorService
+  fullName: System.Windows.Forms.Design.IWindowsFormsEditorService

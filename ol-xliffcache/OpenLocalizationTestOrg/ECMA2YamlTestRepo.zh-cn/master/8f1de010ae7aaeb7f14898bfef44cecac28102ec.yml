@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Media.Animation.ResumeStoryboard
+  id: ResumeStoryboard
+  children:
+  - System.Windows.Media.Animation.ResumeStoryboard.#ctor
+  langs:
+  - csharp
+  name: ResumeStoryboard
+  nameWithType: ResumeStoryboard
+  fullName: System.Windows.Media.Animation.ResumeStoryboard
+  type: Class
+  syntax:
+    content: 'public sealed class ResumeStoryboard : System.Windows.Media.Animation.ControllableStoryboardAction'
+  inheritance:
+  - System.Windows.DependencyObject
+  - System.Windows.TriggerAction
+  - System.Windows.Media.Animation.ControllableStoryboardAction
+  implements: []
+  inheritedMembers:
+  - System.Windows.Media.Animation.ControllableStoryboardAction.BeginStoryboardName
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.ResumeStoryboard.#ctor
+  id: '#ctor'
+  parent: System.Windows.Media.Animation.ResumeStoryboard
+  langs:
+  - csharp
+  name: ResumeStoryboard()
+  nameWithType: ResumeStoryboard.ResumeStoryboard()
+  fullName: System.Windows.Media.Animation.ResumeStoryboard.ResumeStoryboard()
+  type: Constructor
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: public ResumeStoryboard ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Media.Animation.ControllableStoryboardAction
+  isExternal: false
+  name: System.Windows.Media.Animation.ControllableStoryboardAction
+- uid: System.Windows.Media.Animation.ResumeStoryboard.#ctor
+  parent: System.Windows.Media.Animation.ResumeStoryboard
+  isExternal: false
+  name: ResumeStoryboard()
+  nameWithType: ResumeStoryboard.ResumeStoryboard()
+  fullName: System.Windows.Media.Animation.ResumeStoryboard.ResumeStoryboard()

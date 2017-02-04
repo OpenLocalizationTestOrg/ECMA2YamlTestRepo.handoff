@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Forms.Design.Behavior.BehaviorDragDropEventHandler
+  id: BehaviorDragDropEventHandler
+  langs:
+  - csharp
+  name: BehaviorDragDropEventHandler
+  nameWithType: BehaviorDragDropEventHandler
+  fullName: System.Windows.Forms.Design.Behavior.BehaviorDragDropEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void BehaviorDragDropEventHandler(object sender, BehaviorDragDropEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Data.DataColumnChangeEventHandler
+  id: DataColumnChangeEventHandler
+  langs:
+  - csharp
+  name: DataColumnChangeEventHandler
+  nameWithType: DataColumnChangeEventHandler
+  fullName: System.Data.DataColumnChangeEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void DataColumnChangeEventHandler(object sender, DataColumnChangeEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

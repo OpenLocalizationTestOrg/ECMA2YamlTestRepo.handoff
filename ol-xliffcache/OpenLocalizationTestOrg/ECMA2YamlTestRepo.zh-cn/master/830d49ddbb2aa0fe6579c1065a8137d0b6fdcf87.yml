@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Ink.StrokeHitEventHandler
+  id: StrokeHitEventHandler
+  langs:
+  - csharp
+  name: StrokeHitEventHandler
+  nameWithType: StrokeHitEventHandler
+  fullName: System.Windows.Ink.StrokeHitEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void StrokeHitEventHandler(object sender, StrokeHitEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

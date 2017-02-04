@@ -1,0 +1,396 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog
+  id: RegexEditorDialog
+  children:
+  - System.Web.UI.Design.WebControls.RegexEditorDialog.#ctor(System.ComponentModel.ISite)
+  - System.Web.UI.Design.WebControls.RegexEditorDialog.cmdHelp_Click(System.Object,System.EventArgs)
+  - System.Web.UI.Design.WebControls.RegexEditorDialog.cmdOK_Click(System.Object,System.EventArgs)
+  - System.Web.UI.Design.WebControls.RegexEditorDialog.cmdTestValidate_Click(System.Object,System.EventArgs)
+  - System.Web.UI.Design.WebControls.RegexEditorDialog.Dispose(System.Boolean)
+  - System.Web.UI.Design.WebControls.RegexEditorDialog.lstStandardExpressions_SelectedIndexChanged(System.Object,System.EventArgs)
+  - System.Web.UI.Design.WebControls.RegexEditorDialog.RegexTypeEditor_Activated(System.Object,System.EventArgs)
+  - System.Web.UI.Design.WebControls.RegexEditorDialog.RegularExpression
+  - System.Web.UI.Design.WebControls.RegexEditorDialog.txtExpression_TextChanged(System.Object,System.EventArgs)
+  langs:
+  - csharp
+  name: RegexEditorDialog
+  nameWithType: RegexEditorDialog
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog
+  type: Class
+  syntax:
+    content: >-
+      [System.ComponentModel.ToolboxItem(false)]
+
+      public class RegexEditorDialog : System.Windows.Forms.Form
+  inheritance:
+  - System.Windows.Forms.Form
+  implements: []
+  inheritedMembers: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.#ctor(System.ComponentModel.ISite)
+  id: '#ctor(System.ComponentModel.ISite)'
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  langs:
+  - csharp
+  name: RegexEditorDialog(ISite)
+  nameWithType: RegexEditorDialog.RegexEditorDialog(ISite)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.RegexEditorDialog(ISite)
+  type: Constructor
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public RegexEditorDialog (System.ComponentModel.ISite site);
+    parameters:
+    - id: site
+      type: System.ComponentModel.ISite
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdHelp_Click(System.Object,System.EventArgs)
+  id: cmdHelp_Click(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  langs:
+  - csharp
+  name: cmdHelp_Click(Object,EventArgs)
+  nameWithType: RegexEditorDialog.cmdHelp_Click(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdHelp_Click(Object,EventArgs)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void cmdHelp_Click (object sender, EventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: Parameter description to be filled
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdOK_Click(System.Object,System.EventArgs)
+  id: cmdOK_Click(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  langs:
+  - csharp
+  name: cmdOK_Click(Object,EventArgs)
+  nameWithType: RegexEditorDialog.cmdOK_Click(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdOK_Click(Object,EventArgs)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void cmdOK_Click (object sender, EventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: Parameter description to be filled
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdTestValidate_Click(System.Object,System.EventArgs)
+  id: cmdTestValidate_Click(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  langs:
+  - csharp
+  name: cmdTestValidate_Click(Object,EventArgs)
+  nameWithType: RegexEditorDialog.cmdTestValidate_Click(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdTestValidate_Click(Object,EventArgs)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void cmdTestValidate_Click (object sender, EventArgs args);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: Parameter description to be filled
+    - id: args
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.Dispose(System.Boolean)
+  id: Dispose(System.Boolean)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  langs:
+  - csharp
+  name: Dispose(Boolean)
+  nameWithType: RegexEditorDialog.Dispose(Boolean)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.Dispose(Boolean)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected override void Dispose (bool disposing);
+    parameters:
+    - id: disposing
+      type: System.Boolean
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.lstStandardExpressions_SelectedIndexChanged(System.Object,System.EventArgs)
+  id: lstStandardExpressions_SelectedIndexChanged(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  langs:
+  - csharp
+  name: lstStandardExpressions_SelectedIndexChanged(Object,EventArgs)
+  nameWithType: RegexEditorDialog.lstStandardExpressions_SelectedIndexChanged(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.lstStandardExpressions_SelectedIndexChanged(Object,EventArgs)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void lstStandardExpressions_SelectedIndexChanged (object sender, EventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: Parameter description to be filled
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.RegexTypeEditor_Activated(System.Object,System.EventArgs)
+  id: RegexTypeEditor_Activated(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  langs:
+  - csharp
+  name: RegexTypeEditor_Activated(Object,EventArgs)
+  nameWithType: RegexEditorDialog.RegexTypeEditor_Activated(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.RegexTypeEditor_Activated(Object,EventArgs)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void RegexTypeEditor_Activated (object sender, EventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: Parameter description to be filled
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.RegularExpression
+  id: RegularExpression
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  langs:
+  - csharp
+  name: RegularExpression
+  nameWithType: RegexEditorDialog.RegularExpression
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.RegularExpression
+  type: Property
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: public string RegularExpression { get; set; }
+    return:
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.txtExpression_TextChanged(System.Object,System.EventArgs)
+  id: txtExpression_TextChanged(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  langs:
+  - csharp
+  name: txtExpression_TextChanged(Object,EventArgs)
+  nameWithType: RegexEditorDialog.txtExpression_TextChanged(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.txtExpression_TextChanged(Object,EventArgs)
+  type: Method
+  assemblies:
+  - System.Design
+  namespace: System.Web.UI.Design.WebControls
+  syntax:
+    content: protected void txtExpression_TextChanged (object sender, EventArgs e);
+    parameters:
+    - id: sender
+      type: System.Object
+      description: Parameter description to be filled
+    - id: e
+      type: System.EventArgs
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Forms.Form
+  isExternal: false
+  name: System.Windows.Forms.Form
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.#ctor(System.ComponentModel.ISite)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  isExternal: false
+  name: RegexEditorDialog(ISite)
+  nameWithType: RegexEditorDialog.RegexEditorDialog(ISite)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.RegexEditorDialog(ISite)
+- uid: System.ComponentModel.ISite
+  parent: System.ComponentModel
+  isExternal: true
+  name: ISite
+  nameWithType: ISite
+  fullName: System.ComponentModel.ISite
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdHelp_Click(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  isExternal: false
+  name: cmdHelp_Click(Object,EventArgs)
+  nameWithType: RegexEditorDialog.cmdHelp_Click(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdHelp_Click(Object,EventArgs)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdOK_Click(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  isExternal: false
+  name: cmdOK_Click(Object,EventArgs)
+  nameWithType: RegexEditorDialog.cmdOK_Click(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdOK_Click(Object,EventArgs)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdTestValidate_Click(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  isExternal: false
+  name: cmdTestValidate_Click(Object,EventArgs)
+  nameWithType: RegexEditorDialog.cmdTestValidate_Click(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.cmdTestValidate_Click(Object,EventArgs)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.Dispose(System.Boolean)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  isExternal: false
+  name: Dispose(Boolean)
+  nameWithType: RegexEditorDialog.Dispose(Boolean)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.Dispose(Boolean)
+- uid: System.Boolean
+  parent: System
+  isExternal: false
+  name: Boolean
+  nameWithType: Boolean
+  fullName: System.Boolean
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.lstStandardExpressions_SelectedIndexChanged(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  isExternal: false
+  name: lstStandardExpressions_SelectedIndexChanged(Object,EventArgs)
+  nameWithType: RegexEditorDialog.lstStandardExpressions_SelectedIndexChanged(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.lstStandardExpressions_SelectedIndexChanged(Object,EventArgs)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.RegexTypeEditor_Activated(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  isExternal: false
+  name: RegexTypeEditor_Activated(Object,EventArgs)
+  nameWithType: RegexEditorDialog.RegexTypeEditor_Activated(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.RegexTypeEditor_Activated(Object,EventArgs)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.RegularExpression
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  isExternal: false
+  name: RegularExpression
+  nameWithType: RegexEditorDialog.RegularExpression
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.RegularExpression
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String
+- uid: System.Web.UI.Design.WebControls.RegexEditorDialog.txtExpression_TextChanged(System.Object,System.EventArgs)
+  parent: System.Web.UI.Design.WebControls.RegexEditorDialog
+  isExternal: false
+  name: txtExpression_TextChanged(Object,EventArgs)
+  nameWithType: RegexEditorDialog.txtExpression_TextChanged(Object,EventArgs)
+  fullName: System.Web.UI.Design.WebControls.RegexEditorDialog.txtExpression_TextChanged(Object,EventArgs)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.EventArgs
+  parent: System
+  isExternal: false
+  name: EventArgs
+  nameWithType: EventArgs
+  fullName: System.EventArgs

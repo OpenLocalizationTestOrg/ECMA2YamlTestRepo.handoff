@@ -1,0 +1,198 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.MultiDataTrigger
+  id: MultiDataTrigger
+  children:
+  - System.Windows.MultiDataTrigger.#ctor
+  - System.Windows.MultiDataTrigger.Conditions
+  - System.Windows.MultiDataTrigger.Setters
+  - System.Windows.MultiDataTrigger.System#Windows#Markup#IAddChild#AddChild(System.Object)
+  - System.Windows.MultiDataTrigger.System#Windows#Markup#IAddChild#AddText(System.String)
+  langs:
+  - csharp
+  name: MultiDataTrigger
+  nameWithType: MultiDataTrigger
+  fullName: System.Windows.MultiDataTrigger
+  type: Class
+  syntax:
+    content: >-
+      [System.Windows.Markup.ContentProperty("Setters")]
+
+      public sealed class MultiDataTrigger : System.Windows.TriggerBase, System.Windows.Markup.IAddChild
+  inheritance:
+  - System.Windows.DependencyObject
+  - System.Windows.TriggerBase
+  implements:
+  - System.Windows.Markup.IAddChild
+  inheritedMembers:
+  - System.Windows.TriggerBase.EnterActions
+  - System.Windows.TriggerBase.ExitActions
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.MultiDataTrigger.#ctor
+  id: '#ctor'
+  parent: System.Windows.MultiDataTrigger
+  langs:
+  - csharp
+  name: MultiDataTrigger()
+  nameWithType: MultiDataTrigger.MultiDataTrigger()
+  fullName: System.Windows.MultiDataTrigger.MultiDataTrigger()
+  type: Constructor
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows
+  syntax:
+    content: public MultiDataTrigger ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.MultiDataTrigger.Conditions
+  id: Conditions
+  parent: System.Windows.MultiDataTrigger
+  langs:
+  - csharp
+  name: Conditions
+  nameWithType: MultiDataTrigger.Conditions
+  fullName: System.Windows.MultiDataTrigger.Conditions
+  type: Property
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows
+  syntax:
+    content: public System.Windows.ConditionCollection Conditions { get; }
+    return:
+      type: System.Windows.ConditionCollection
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.MultiDataTrigger.Setters
+  id: Setters
+  parent: System.Windows.MultiDataTrigger
+  langs:
+  - csharp
+  name: Setters
+  nameWithType: MultiDataTrigger.Setters
+  fullName: System.Windows.MultiDataTrigger.Setters
+  type: Property
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows
+  syntax:
+    content: public System.Windows.SetterBaseCollection Setters { get; }
+    return:
+      type: System.Windows.SetterBaseCollection
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.MultiDataTrigger.System#Windows#Markup#IAddChild#AddChild(System.Object)
+  id: System#Windows#Markup#IAddChild#AddChild(System.Object)
+  isEii: true
+  parent: System.Windows.MultiDataTrigger
+  langs:
+  - csharp
+  name: System.Windows.Markup.IAddChild.AddChild(Object)
+  nameWithType: MultiDataTrigger.System.Windows.Markup.IAddChild.AddChild(Object)
+  fullName: System.Windows.MultiDataTrigger.System.Windows.Markup.IAddChild.AddChild(Object)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows
+  syntax:
+    content: void IAddChild.AddChild (object value);
+    parameters:
+    - id: value
+      type: System.Object
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.MultiDataTrigger.System#Windows#Markup#IAddChild#AddText(System.String)
+  id: System#Windows#Markup#IAddChild#AddText(System.String)
+  isEii: true
+  parent: System.Windows.MultiDataTrigger
+  langs:
+  - csharp
+  name: System.Windows.Markup.IAddChild.AddText(String)
+  nameWithType: MultiDataTrigger.System.Windows.Markup.IAddChild.AddText(String)
+  fullName: System.Windows.MultiDataTrigger.System.Windows.Markup.IAddChild.AddText(String)
+  type: Method
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows
+  syntax:
+    content: void IAddChild.AddText (string text);
+    parameters:
+    - id: text
+      type: System.String
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.TriggerBase
+  isExternal: false
+  name: System.Windows.TriggerBase
+- uid: System.Windows.MultiDataTrigger.#ctor
+  parent: System.Windows.MultiDataTrigger
+  isExternal: false
+  name: MultiDataTrigger()
+  nameWithType: MultiDataTrigger.MultiDataTrigger()
+  fullName: System.Windows.MultiDataTrigger.MultiDataTrigger()
+- uid: System.Windows.MultiDataTrigger.Conditions
+  parent: System.Windows.MultiDataTrigger
+  isExternal: false
+  name: Conditions
+  nameWithType: MultiDataTrigger.Conditions
+  fullName: System.Windows.MultiDataTrigger.Conditions
+- uid: System.Windows.ConditionCollection
+  parent: System.Windows
+  isExternal: false
+  name: ConditionCollection
+  nameWithType: ConditionCollection
+  fullName: System.Windows.ConditionCollection
+- uid: System.Windows.MultiDataTrigger.Setters
+  parent: System.Windows.MultiDataTrigger
+  isExternal: false
+  name: Setters
+  nameWithType: MultiDataTrigger.Setters
+  fullName: System.Windows.MultiDataTrigger.Setters
+- uid: System.Windows.SetterBaseCollection
+  parent: System.Windows
+  isExternal: false
+  name: SetterBaseCollection
+  nameWithType: SetterBaseCollection
+  fullName: System.Windows.SetterBaseCollection
+- uid: System.Windows.MultiDataTrigger.System#Windows#Markup#IAddChild#AddChild(System.Object)
+  parent: System.Windows.MultiDataTrigger
+  isExternal: false
+  name: System.Windows.Markup.IAddChild.AddChild(Object)
+  nameWithType: MultiDataTrigger.System.Windows.Markup.IAddChild.AddChild(Object)
+  fullName: System.Windows.MultiDataTrigger.System.Windows.Markup.IAddChild.AddChild(Object)
+- uid: System.Object
+  parent: System
+  isExternal: false
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Windows.MultiDataTrigger.System#Windows#Markup#IAddChild#AddText(System.String)
+  parent: System.Windows.MultiDataTrigger
+  isExternal: false
+  name: System.Windows.Markup.IAddChild.AddText(String)
+  nameWithType: MultiDataTrigger.System.Windows.Markup.IAddChild.AddText(String)
+  fullName: System.Windows.MultiDataTrigger.System.Windows.Markup.IAddChild.AddText(String)
+- uid: System.String
+  parent: System
+  isExternal: false
+  name: String
+  nameWithType: String
+  fullName: System.String

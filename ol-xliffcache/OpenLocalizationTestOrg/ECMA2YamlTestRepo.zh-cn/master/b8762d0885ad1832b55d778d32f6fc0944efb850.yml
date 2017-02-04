@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Navigation.NavigationFailedEventHandler
+  id: NavigationFailedEventHandler
+  langs:
+  - csharp
+  name: NavigationFailedEventHandler
+  nameWithType: NavigationFailedEventHandler
+  fullName: System.Windows.Navigation.NavigationFailedEventHandler
+  type: Delegate
+  syntax:
+    content: public delegate void NavigationFailedEventHandler(object sender, NavigationFailedEventArgs e);
+  inheritance:
+  - System.Object
+  - System.Delegate
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Delegate
+  isExternal: false
+  name: System.Delegate

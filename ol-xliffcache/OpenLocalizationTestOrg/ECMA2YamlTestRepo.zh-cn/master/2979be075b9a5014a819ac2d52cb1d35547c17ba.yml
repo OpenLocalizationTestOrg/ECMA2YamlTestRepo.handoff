@@ -1,0 +1,161 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Linq.ParallelMergeOptions
+  id: ParallelMergeOptions
+  children:
+  - System.Linq.ParallelMergeOptions.AutoBuffered
+  - System.Linq.ParallelMergeOptions.Default
+  - System.Linq.ParallelMergeOptions.FullyBuffered
+  - System.Linq.ParallelMergeOptions.NotBuffered
+  langs:
+  - csharp
+  name: ParallelMergeOptions
+  nameWithType: ParallelMergeOptions
+  fullName: System.Linq.ParallelMergeOptions
+  type: Enum
+  syntax:
+    content: public enum ParallelMergeOptions
+  inheritance:
+  - System.Object
+  - System.ValueType
+  - System.Enum
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.ParallelMergeOptions.AutoBuffered
+  id: AutoBuffered
+  parent: System.Linq.ParallelMergeOptions
+  langs:
+  - csharp
+  name: AutoBuffered
+  nameWithType: ParallelMergeOptions.AutoBuffered
+  fullName: System.Linq.ParallelMergeOptions.AutoBuffered
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Linq
+  syntax:
+    content: AutoBuffered
+    return:
+      type: System.Linq.ParallelMergeOptions
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.ParallelMergeOptions.Default
+  id: Default
+  parent: System.Linq.ParallelMergeOptions
+  langs:
+  - csharp
+  name: Default
+  nameWithType: ParallelMergeOptions.Default
+  fullName: System.Linq.ParallelMergeOptions.Default
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Linq
+  syntax:
+    content: Default
+    return:
+      type: System.Linq.ParallelMergeOptions
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.ParallelMergeOptions.FullyBuffered
+  id: FullyBuffered
+  parent: System.Linq.ParallelMergeOptions
+  langs:
+  - csharp
+  name: FullyBuffered
+  nameWithType: ParallelMergeOptions.FullyBuffered
+  fullName: System.Linq.ParallelMergeOptions.FullyBuffered
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Linq
+  syntax:
+    content: FullyBuffered
+    return:
+      type: System.Linq.ParallelMergeOptions
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Linq.ParallelMergeOptions.NotBuffered
+  id: NotBuffered
+  parent: System.Linq.ParallelMergeOptions
+  langs:
+  - csharp
+  name: NotBuffered
+  nameWithType: ParallelMergeOptions.NotBuffered
+  fullName: System.Linq.ParallelMergeOptions.NotBuffered
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Linq
+  syntax:
+    content: NotBuffered
+    return:
+      type: System.Linq.ParallelMergeOptions
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Enum
+  isExternal: false
+  name: System.Enum
+- uid: System.Linq.ParallelMergeOptions.AutoBuffered
+  parent: System.Linq.ParallelMergeOptions
+  isExternal: false
+  name: AutoBuffered
+  nameWithType: ParallelMergeOptions.AutoBuffered
+  fullName: System.Linq.ParallelMergeOptions.AutoBuffered
+- uid: System.Linq.ParallelMergeOptions
+  parent: System.Linq
+  isExternal: false
+  name: ParallelMergeOptions
+  nameWithType: ParallelMergeOptions
+  fullName: System.Linq.ParallelMergeOptions
+- uid: System.Linq.ParallelMergeOptions.Default
+  parent: System.Linq.ParallelMergeOptions
+  isExternal: false
+  name: Default
+  nameWithType: ParallelMergeOptions.Default
+  fullName: System.Linq.ParallelMergeOptions.Default
+- uid: System.Linq.ParallelMergeOptions
+  parent: System.Linq
+  isExternal: false
+  name: ParallelMergeOptions
+  nameWithType: ParallelMergeOptions
+  fullName: System.Linq.ParallelMergeOptions
+- uid: System.Linq.ParallelMergeOptions.FullyBuffered
+  parent: System.Linq.ParallelMergeOptions
+  isExternal: false
+  name: FullyBuffered
+  nameWithType: ParallelMergeOptions.FullyBuffered
+  fullName: System.Linq.ParallelMergeOptions.FullyBuffered
+- uid: System.Linq.ParallelMergeOptions
+  parent: System.Linq
+  isExternal: false
+  name: ParallelMergeOptions
+  nameWithType: ParallelMergeOptions
+  fullName: System.Linq.ParallelMergeOptions
+- uid: System.Linq.ParallelMergeOptions.NotBuffered
+  parent: System.Linq.ParallelMergeOptions
+  isExternal: false
+  name: NotBuffered
+  nameWithType: ParallelMergeOptions.NotBuffered
+  fullName: System.Linq.ParallelMergeOptions.NotBuffered
+- uid: System.Linq.ParallelMergeOptions
+  parent: System.Linq
+  isExternal: false
+  name: ParallelMergeOptions
+  nameWithType: ParallelMergeOptions
+  fullName: System.Linq.ParallelMergeOptions

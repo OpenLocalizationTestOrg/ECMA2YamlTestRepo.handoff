@@ -1,0 +1,134 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Media.Animation.SineEase
+  id: SineEase
+  children:
+  - System.Windows.Media.Animation.SineEase.#ctor
+  - System.Windows.Media.Animation.SineEase.CreateInstanceCore
+  - System.Windows.Media.Animation.SineEase.EaseInCore(System.Double)
+  langs:
+  - csharp
+  name: SineEase
+  nameWithType: SineEase
+  fullName: System.Windows.Media.Animation.SineEase
+  type: Class
+  syntax:
+    content: 'public class SineEase : System.Windows.Media.Animation.EasingFunctionBase'
+  inheritance:
+  - System.Windows.Freezable
+  - System.Windows.Media.Animation.EasingFunctionBase
+  implements: []
+  inheritedMembers:
+  - System.Windows.Media.Animation.EasingFunctionBase.Ease(System.Double)
+  - System.Windows.Media.Animation.EasingFunctionBase.EasingMode
+  - System.Windows.Media.Animation.EasingFunctionBase.EasingModeProperty
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.SineEase.#ctor
+  id: '#ctor'
+  parent: System.Windows.Media.Animation.SineEase
+  langs:
+  - csharp
+  name: SineEase()
+  nameWithType: SineEase.SineEase()
+  fullName: System.Windows.Media.Animation.SineEase.SineEase()
+  type: Constructor
+  assemblies:
+  - PresentationCore
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: public SineEase ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.SineEase.CreateInstanceCore
+  id: CreateInstanceCore
+  parent: System.Windows.Media.Animation.SineEase
+  langs:
+  - csharp
+  name: CreateInstanceCore()
+  nameWithType: SineEase.CreateInstanceCore()
+  fullName: System.Windows.Media.Animation.SineEase.CreateInstanceCore()
+  type: Method
+  assemblies:
+  - PresentationCore
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: protected override System.Windows.Freezable CreateInstanceCore ();
+    parameters: []
+    return:
+      type: System.Windows.Freezable
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.SineEase.EaseInCore(System.Double)
+  id: EaseInCore(System.Double)
+  parent: System.Windows.Media.Animation.SineEase
+  langs:
+  - csharp
+  name: EaseInCore(Double)
+  nameWithType: SineEase.EaseInCore(Double)
+  fullName: System.Windows.Media.Animation.SineEase.EaseInCore(Double)
+  type: Method
+  assemblies:
+  - PresentationCore
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: protected override double EaseInCore (double normalizedTime);
+    parameters:
+    - id: normalizedTime
+      type: System.Double
+      description: Parameter description to be filled
+    return:
+      type: System.Double
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Media.Animation.EasingFunctionBase
+  isExternal: false
+  name: System.Windows.Media.Animation.EasingFunctionBase
+- uid: System.Windows.Media.Animation.SineEase.#ctor
+  parent: System.Windows.Media.Animation.SineEase
+  isExternal: false
+  name: SineEase()
+  nameWithType: SineEase.SineEase()
+  fullName: System.Windows.Media.Animation.SineEase.SineEase()
+- uid: System.Windows.Media.Animation.SineEase.CreateInstanceCore
+  parent: System.Windows.Media.Animation.SineEase
+  isExternal: false
+  name: CreateInstanceCore()
+  nameWithType: SineEase.CreateInstanceCore()
+  fullName: System.Windows.Media.Animation.SineEase.CreateInstanceCore()
+- uid: System.Windows.Freezable
+  parent: System.Windows
+  isExternal: true
+  name: Freezable
+  nameWithType: Freezable
+  fullName: System.Windows.Freezable
+- uid: System.Windows.Media.Animation.SineEase.EaseInCore(System.Double)
+  parent: System.Windows.Media.Animation.SineEase
+  isExternal: false
+  name: EaseInCore(Double)
+  nameWithType: SineEase.EaseInCore(Double)
+  fullName: System.Windows.Media.Animation.SineEase.EaseInCore(Double)
+- uid: System.Double
+  parent: System
+  isExternal: false
+  name: Double
+  nameWithType: Double
+  fullName: System.Double
+- uid: System.Double
+  parent: System
+  isExternal: false
+  name: Double
+  nameWithType: Double
+  fullName: System.Double

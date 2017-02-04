@@ -1,0 +1,54 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Windows.Media.Animation.RemoveStoryboard
+  id: RemoveStoryboard
+  children:
+  - System.Windows.Media.Animation.RemoveStoryboard.#ctor
+  langs:
+  - csharp
+  name: RemoveStoryboard
+  nameWithType: RemoveStoryboard
+  fullName: System.Windows.Media.Animation.RemoveStoryboard
+  type: Class
+  syntax:
+    content: 'public sealed class RemoveStoryboard : System.Windows.Media.Animation.ControllableStoryboardAction'
+  inheritance:
+  - System.Windows.DependencyObject
+  - System.Windows.TriggerAction
+  - System.Windows.Media.Animation.ControllableStoryboardAction
+  implements: []
+  inheritedMembers:
+  - System.Windows.Media.Animation.ControllableStoryboardAction.BeginStoryboardName
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Windows.Media.Animation.RemoveStoryboard.#ctor
+  id: '#ctor'
+  parent: System.Windows.Media.Animation.RemoveStoryboard
+  langs:
+  - csharp
+  name: RemoveStoryboard()
+  nameWithType: RemoveStoryboard.RemoveStoryboard()
+  fullName: System.Windows.Media.Animation.RemoveStoryboard.RemoveStoryboard()
+  type: Constructor
+  assemblies:
+  - PresentationFramework
+  namespace: System.Windows.Media.Animation
+  syntax:
+    content: public RemoveStoryboard ();
+    parameters: []
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Windows.Media.Animation.ControllableStoryboardAction
+  isExternal: false
+  name: System.Windows.Media.Animation.ControllableStoryboardAction
+- uid: System.Windows.Media.Animation.RemoveStoryboard.#ctor
+  parent: System.Windows.Media.Animation.RemoveStoryboard
+  isExternal: false
+  name: RemoveStoryboard()
+  nameWithType: RemoveStoryboard.RemoveStoryboard()
+  fullName: System.Windows.Media.Animation.RemoveStoryboard.RemoveStoryboard()

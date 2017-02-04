@@ -1,0 +1,93 @@
+### YamlMime:ManagedReference
+items:
+- uid: System.Threading.LockRecursionPolicy
+  id: LockRecursionPolicy
+  children:
+  - System.Threading.LockRecursionPolicy.NoRecursion
+  - System.Threading.LockRecursionPolicy.SupportsRecursion
+  langs:
+  - csharp
+  name: LockRecursionPolicy
+  nameWithType: LockRecursionPolicy
+  fullName: System.Threading.LockRecursionPolicy
+  type: Enum
+  syntax:
+    content: public enum LockRecursionPolicy
+  inheritance:
+  - System.Object
+  - System.ValueType
+  - System.Enum
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.LockRecursionPolicy.NoRecursion
+  id: NoRecursion
+  parent: System.Threading.LockRecursionPolicy
+  langs:
+  - csharp
+  name: NoRecursion
+  nameWithType: LockRecursionPolicy.NoRecursion
+  fullName: System.Threading.LockRecursionPolicy.NoRecursion
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Threading
+  syntax:
+    content: NoRecursion
+    return:
+      type: System.Threading.LockRecursionPolicy
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+- uid: System.Threading.LockRecursionPolicy.SupportsRecursion
+  id: SupportsRecursion
+  parent: System.Threading.LockRecursionPolicy
+  langs:
+  - csharp
+  name: SupportsRecursion
+  nameWithType: LockRecursionPolicy.SupportsRecursion
+  fullName: System.Threading.LockRecursionPolicy.SupportsRecursion
+  type: Field
+  assemblies:
+  - System.Core
+  namespace: System.Threading
+  syntax:
+    content: SupportsRecursion
+    return:
+      type: System.Threading.LockRecursionPolicy
+      description: Parameter description to be filled
+  platform:
+  - net-11
+  - net-20
+  - netcore-10
+references:
+- uid: System.Enum
+  isExternal: false
+  name: System.Enum
+- uid: System.Threading.LockRecursionPolicy.NoRecursion
+  parent: System.Threading.LockRecursionPolicy
+  isExternal: false
+  name: NoRecursion
+  nameWithType: LockRecursionPolicy.NoRecursion
+  fullName: System.Threading.LockRecursionPolicy.NoRecursion
+- uid: System.Threading.LockRecursionPolicy
+  parent: System.Threading
+  isExternal: false
+  name: LockRecursionPolicy
+  nameWithType: LockRecursionPolicy
+  fullName: System.Threading.LockRecursionPolicy
+- uid: System.Threading.LockRecursionPolicy.SupportsRecursion
+  parent: System.Threading.LockRecursionPolicy
+  isExternal: false
+  name: SupportsRecursion
+  nameWithType: LockRecursionPolicy.SupportsRecursion
+  fullName: System.Threading.LockRecursionPolicy.SupportsRecursion
+- uid: System.Threading.LockRecursionPolicy
+  parent: System.Threading
+  isExternal: false
+  name: LockRecursionPolicy
+  nameWithType: LockRecursionPolicy
+  fullName: System.Threading.LockRecursionPolicy
